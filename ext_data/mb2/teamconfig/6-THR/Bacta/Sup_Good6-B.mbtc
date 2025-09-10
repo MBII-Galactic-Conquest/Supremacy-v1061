@@ -1,0 +1,14 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Thrawns Ascendancy
+name "Sup_Good6-B"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_6nr_solb"
+class2	"s_6nr_vang"
+class3	"s_6nr_ofcw"
+class4	"s_6nr_med"
+}
+//1-6

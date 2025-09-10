@@ -1,0 +1,124 @@
+ClassInfo
+{
+name	"s_7bs_hvg"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_MINIGUN|WP_FIRE_NADE
+attributes	MB_ATT_PISTOL,3|MB_ATT_MINIGUN,3|MB_ATT_DODGE,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_CCTRAINING,2|MB_ATT_FIRE_GRENADES,2
+forcepowers	FP_RAGE,3
+maxhealth	110
+maxarmor	80
+forcepool	50
+speed	0.6
+customred	0.1
+customgreen	0.1
+customblue	0.1
+model	"weequay"
+skin	"rgb"
+uishader	"gfx/sup_icons/weequay/mb2_icon_hvg"
+MBClass	"MB_CLASS_BOUNTY_HUNTER"
+extralives	1
+model_1	"weequay"
+skin_1	"rgb_abyssin"
+uishader_1	"gfx/sup_icons/abyssin/mb2_icon_hvg"
+model_2	"gran"
+skin_2	"rgb"
+uishader_2	"gfx/sup_icons/gran/mb2_icon_hvg"
+model_3	"rodian"
+skin_3	"rgb"
+uishader_3	"gfx/sup_icons/rodian/mb2_icon_hvg"
+model_4	"trandoshan"
+skin_4	"rgb"
+uishader_4	"gfx/sup_icons/bossk/mb2_icon_hvg"
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+rateoffire	1.5
+damageGiven	1.1
+damageTaken	0.95
+knockbackGiven	1.2
+classNumberLimit	2
+resource	RESOURCE_RAGE
+special1	EAS_HI_DODGE
+special2	EAS_HI_DEX
+WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Heavy Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+MissileEffect	"blaster/Shot05R"
+Missile3Effect	"Blaster/Shot05R"
+MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
+ReloadTimeModifier	2
+AltFireEnabled 0
+customAmmo	250
+clipSize	20
+hasAnimOverrides	1
+animReady BOTH_STAND4TOATTACK2
+animReadyWalk BOTH_STAND4TOATTACK2
+animReadyNoAmmo BOTH_PISTOL_ATTACK
+animAttack BOTH_PISTOL_ATTACK
+animAttackWalk BOTH_PISTOL_ATTACK
+animStand BOTH_STAND9
+damageMod 0.9
+velocityMod 0.9
+rateMod 1.2
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_MINIGUN
+WeaponBasedOff	WP_MINIGUN
+NewWorldModel	"models/weapons2/DLT-19_HeavyBlaster/model_scope.glm"
+NewViewModel	"models/weapons2/DLT-19_HeavyBlaster/riflescoped.md3"
+Icon	"gfx/hud/w_icon_dlt19scoped"
+WeaponName	"DLT-19"
+FlashSound0	"sound/weapons/DLT19/fire.wav"
+FlashSound1	"sound/weapons/DLT19/fire.wav"
+FlashSound2	"sound/weapons/DLT19/fire.wav"
+FlashSound3	"sound/weapons/DLT19/fire.wav"
+AltFlashSound0	"sound/weapons/DLT19/fire.wav"
+AltFlashSound1	"sound/weapons/DLT19/fire.wav"
+AltFlashSound2	"sound/weapons/DLT19/fire.wav"
+AltFlashSound3	"sound/weapons/DLT19/fire.wav"
+MuzzleEffect  "Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot03R"
+customAmmo	500
+clipSize	100
+isMinigun	1
+ReloadTimeModifier	2
+FPMult	0.9
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/mp/sup_laser_barrage"
+ForcePowerName	"Laser Barrage"
+StartSound	"sound/forcesup/barrage.mp3"
+}
+description ""

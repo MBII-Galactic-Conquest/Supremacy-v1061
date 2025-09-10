@@ -1,0 +1,76 @@
+ClassInfo
+{
+name	"bh_tr_gru"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_BLASTER|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_PISTOL,3|MB_ATT_BLASTER,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_MICRO_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_ASSEMBLE,1|MB_ATT_DASH|MB_ATT_GUNBASH
+holdables	HI_AMMODISP
+maxhealth	75
+maxarmor	50
+customred	1
+customgreen	0.1
+customblue	0.1
+model	"weequay"
+skin	"rgb"
+uishader	"models/players/projheaven/mb2_icon_red_grunt"
+MBClass	"MB_CLASS_ELITETROOPER"
+speed	0.8
+model_1	"weequay"
+skin_1	"rgb_abyssin"
+uishader_1	"models/players/weequay/mb2_icon_rgb_abyssin"
+model_2	"gran"
+skin_2	"rgb"
+uishader_2	"models/players/gran/mb2_icon_default"
+model_3	"rodian"
+skin_3	"rgb"
+uishader_3	"models/players/rodian/mb2_icon_default"
+model_4	"trandoshan"
+skin_4	"rgb"
+uishader_4	"models/players/bossk/mb2_icon_default"
+model_5	"jedi_hm"
+skin_5	"hothelite2_rgb"
+uishader_5	"models/players/jedi_hm/mb2_icon_hothelite2_rgb"
+model_6	"jedi_hf"
+skin_6	"hoth4_rgb"
+uishader_6	"models/players/jedi_hf/mb2_icon_hoth4_rgb"
+model_7	"jedi_tf"
+skin_7	"hoth2_rgb"
+uishader_7	"models/players/jedi_tf/mb2_icon_hoth2_rgb"
+model_8	"jedi_zf"
+skin_8	"rgb_et"
+uishader_8	"models/players/jedi_zf/mb2_icon_rgb_et"
+model_9	"jedi_kdm"
+skin_9	"hoth3_rgb"
+uishader_9	"models/players/jedi_kdm/mb2_icon_hoth3_rgb"
+extralives	5
+//respawnWait 10000
+respawnCustomTime 10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"Stolen E-11 Carbine"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+}
+description ""

@@ -1,0 +1,90 @@
+ClassInfo
+{
+name	"s_13vo_grg"
+weapons	WP_MELEE|WP_BLASTER|WP_FRAG_NADE
+forcepowers	FP_LEVITATION,0|FP_ABSORB,2
+attributes	MB_ATT_BESKAR,2|MB_ATT_BLASTER,2|MB_ATT_FRAGS,1|MB_ATT_FORCEBLOCK,4|MB_ATT_FORCEFOCUS,4|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_CCTRAINING,2|MB_ATT_CORTOSIS,1|MB_ATT_ANTI_MT,2|MB_ATT_GUNBASH
+classflags	CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+maxhealth	75
+forcepool	100
+speed	0.8
+modelscale	1.1
+MBClass	MB_CLASS_SOLDIER
+damageGiven	1.10
+model	"vong_pilot"
+skin	"default"
+uishader	"gfx/sup_icons/vong_pilot/mb2_icon_solg"
+rateoffire	1.2
+rateoffire_melee	2
+WP_BlasterFlags	HELD_POISON|HELD_ALTRELOAD
+tauntAnim	BOTH_TUSKENTAUNT1
+flourishAnim	BOTH_TUSKENTAUNT1
+gloatAnim	BOTH_TUSKENTAUNT1
+resource	RESOURCE_FORCE
+isCustomBuild	1
+mbPoints	16
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Garrison"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_INVALID
+c_att_names_2	"^5-AVAILABILITY-"
+c_att_ranks_2	-1
+c_att_skill_3	MB_ATT_RESPAWNS
+c_att_names_3	"Extra Lives:"
+c_att_ranks_3	5,5,5
+c_att_skill_4	MB_ATT_ASSEMBLE
+c_att_names_4	"Assemble:"
+c_att_ranks_4	1
+c_att_skill_6	MB_ATT_INVALID
+c_att_names_6	"^5-STATS-"
+c_att_ranks_6	-1
+c_att_skill_7	MB_ATT_INVALID
+c_att_names_7	"^3Special Unit Support"
+c_att_ranks_7	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/geonosian/sonicrifle.glm"
+NewViewModel	"models/weapons2/geonosian/sonicrifle.md3"
+Icon	"gfx/hud/w_icon_sonicrifle"
+WeaponName	"Vong Acid Thrower"
+ChargeEffect	"gfx/effects/greenfrontflash"
+MissileMissEffect	"effects/sonic_pistol/wall_impact"
+AltMissileMissEffect	"effects/sonic_pistol/wall_impact"
+MuzzleEffect	"Disruptor/muzzle_flash"
+AltMuzzleEffect	"Disruptor/muzzle_flash"
+MissileEffect	"effects/sonic_pistol/projectile"
+AltMissileEffect	"effects/sonic_pistol/projectile"
+FlashSound0	"sound/weapsup/vong/acidthrower.mp3"
+AltFlashSound0	"sound/weapsup/vong/acidthrower2.mp3"
+CustomAmmo	500
+ClipSize	100
+FPmult  1.25
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+ForceInfo0
+{
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mplevels/dc_universe/fp_sinestro"
+ForcePowerName	"Natural Force Resist"
+}
+description ""

@@ -1,0 +1,126 @@
+ClassInfo
+{
+name	"s_13ga_yvh"
+weapons	WP_MELEE|WP_THERMAL|WP_SABER|WP_SBD|WP_PLX1
+attributes	MB_ATT_INAIR_FORCE_REGEN|MB_ATT_BUNNY_HOP,2|MB_ATT_FLOAT_HOP,1|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,0|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_FP_SABER_OFFENSE,3|MB_ATT_FLAMETHROWER,1|MB_ATT_DASH,2|MB_ATT_JETPACK,1|MB_ATT_FUEL,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_GUNBASH|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_BESKAR,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_FIREPOWER,3|MB_ATT_CORTOSIS,1|MB_ATT_FP_MIRALUKA|MB_ATT_ROSHTAUNT|MB_ATT_WATERBREATHING
+forcepowers	FP_LEVITATION,3|FP_SPEED,3|FP_SEE,2|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3
+holdables	HI_CLOAK
+classflags	CFL_REALTD|CFL_DISMEMBERFRAGILE|CFL_BPFREEJUMPS
+maxhealth	50
+maxarmor	125
+forcepool	100
+forceregen	6
+classNumberLimit	1
+//extralives	1
+damageTaken	0.85
+speed 1.4
+saber1	qstaff_supremacy
+sabercolor	0
+saberstyle	SS_STAFF
+model	"T800"
+skin	"default"
+uishader	"gfx/sup_icons/T800/mb2_icon_vang"
+MBClass	MB_CLASS_WOOKIE
+modelscale	1.20
+rageSoundOverride  "sound/chars/NRSD/misc/death3.mp3"
+bargeSoundOverride "sound/chars/k2so/misc/death2.mp3"
+WalkBackward	SBD_WALKBACK_NOGUN
+WalkForward	SBD_WALK_NOGUN
+//RunForward	SBD_RUN_NOGUN
+//saberStanceAnim	BOTH_DOOKU_STANCE
+jetpackJetTag	"*r_leg_foot"//*r_leg_foot"
+jetpackJet2Tag	"*l_leg_foot"//"*l_leg_foot"
+jetpackJetOffset	"0, 0, 10"// 30"
+jetpackJet2Offset	"0, 0, 10"// 0, 0, 30"
+jetpackJetAngles	"0, -70, 0"
+jetpackJet2Angles	"0, 70, 0"
+//jetpackThrustSound	"sound/vehicles/tie/loop"
+//jetpackIdleSound	"sound/vehicles/tie/loop"
+//jetpackStartSound	"sound/vehicles/x-wing/flyby"
+resource	RESOURCE_BATTERY
+special1	EAS_HI_DEX
+special2	EAS_HI_FURY
+special3	EAS_HI_FLAME
+special4	EAS_HI_DASH
+rateOfFire	1
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+//WeaponToReplace	WP_BLASTER
+//WeaponBasedOff	WP_BLASTER
+WeaponToReplace	WP_SBD
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_sbdarm"
+WeaponName	"Wrist Blaster"
+idleAnim	SBD_GUN_OUT_STAND
+firingAnim	SBD_FIRE
+altFiringAnim	SBD_FIRE
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_phasma_staff"
+WeaponName	"Quarter Staff"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_PLX1
+WeaponBasedOff	WP_PLX1
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_sbdarm"
+WeaponName	"Wrist Rocket"
+MissileEffect	"upl/shot"
+MissileSound	"sound/weapons/upl/missleloop.wav"
+MissileModel	"models/weapons2/upl/projectile_a.md3"
+AltMissileMissEffect	"effects/Grenades/EXP_Explosion"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Explosion"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Explosion"
+MissileMissEffect	"effects/Grenades/EXP_Explosion"
+MissileHitHumanEffect	"effects/Grenades/EXP_Explosion"
+MissileHitDroidEffect	"effects/Grenades/EXP_Explosion"
+FlashSound0	"sound/weapons/WhistlingBird/Fire3.mp3"
+customAmmo	1
+damageMod	1.5
+clipSize	1
+ReloadTimeModifier	2
+AltFireEnabled	0
+idleAnim	SBD_GUN_OUT_STAND
+firingAnim	SBD_FIRE
+altFiringAnim	SBD_FIRE
+}
+ForceInfo0
+{
+ForceToReplace	FP_SEE
+Icon	"gfx/forcepowers/radar"
+ForcePowerName	"Radar Scanner"
+}
+ForceInfo1
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
+}
+description ""

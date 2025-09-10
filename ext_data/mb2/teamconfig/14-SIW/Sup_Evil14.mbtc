@@ -1,0 +1,14 @@
+//Supremacy Class Prefix: s_14kr_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Sith-Imperial War
+name "Sup_Evil14"
+ClassesAllowed 3
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_14kr_sold"
+class2	"s_14kr_vet"
+class3	"s_14kr_ofcw"
+}
+//1-6

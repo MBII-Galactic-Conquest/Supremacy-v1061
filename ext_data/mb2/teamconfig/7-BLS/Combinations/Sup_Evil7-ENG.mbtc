@@ -1,0 +1,27 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Fall of the Black Sun
+name "Sup_Evil7-ENG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_7bs_sleng"
+class2	"s_7bs_ofc"
+class3	"s_7bs_elt"
+class4	"s_7bs_hvg"
+class5	"s_7bs_hvr"
+class6	"s_7bs_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_7bs_pyks"
+Subclass2	"s_7bs_bd1"
+Subclass3	"s_7bs_gam"
+Subclass4	"s_7bs_spy"
+Subclass5	"s_7bs_flm"
+Subclass6	"s_7bs_man"
+Subclass7	"s_7bs_sni"
+}
+//1-11

@@ -1,0 +1,25 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Sith-Imperial War
+name "Sup_Evil14-G"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_14kr_solg"
+class2	"s_14kr_ofc"
+class3	"s_14kr_vet"
+class4	"s_14kr_hvg"
+class5	"s_14kr_hvr"
+class6	"s_14kr_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_14kr_shck"
+Subclass2	"s_14kr_spy"
+Subclass3	"s_14kr_flm"
+Subclass4	"s_14kr_gs3"
+Subclass5	"s_14kr_sni"
+}
+//1-11

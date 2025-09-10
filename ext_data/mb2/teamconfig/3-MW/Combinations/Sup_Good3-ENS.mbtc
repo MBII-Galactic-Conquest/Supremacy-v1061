@@ -1,0 +1,14 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Mandalorian Wars
+name "Sup_Good3-ENS"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_3or_slens"
+class2	"s_3or_vang"
+class3	"s_3or_ofcw"
+class4	"s_3or_eng"
+}
+//1-6

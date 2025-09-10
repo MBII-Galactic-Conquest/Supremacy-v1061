@@ -1,0 +1,15 @@
+//Supremacy Class Prefix: s_16ie_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Infinite Empire
+name "Sup_Evil16-B"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_16ie_solb"
+class2	"s_16ie_vet"
+class3	"s_16ie_ofcw"
+class4	"s_16ie_med"
+}
+//1-6

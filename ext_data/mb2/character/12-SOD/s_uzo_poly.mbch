@@ -1,0 +1,66 @@
+//Siege class def file.
+ClassInfo
+{
+name  "s_uzo_poly"
+weapons WP_SABER|WP_MELEE
+saber1  uds_ClawR
+saber2  uds_ClawL
+saberstyle  SS_DUAL
+attributes  MB_ATT_HEALING,1|MB_ATT_SPY_DISGUISE,1
+forcepowers FP_LEVITATION,3|FP_SABER_OFFENSE,3|FP_SPEED,3
+holdables   HI_CLOAK
+maxhealth 150
+model "noghri"
+skin  "polymorph"
+uishader  "models/players/noghri/mb2_icon_polymorph"
+MBClass MB_CLASS_JEDI
+speed 1.00
+forceregen  2
+forcepool 80
+extralives  1
+modelscale  1.1
+classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+classnumberlimit  1
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+	NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_melee"
+WeaponName	"Melee"
+FlashSound0	"Sound/chars/Death_Trooper/misc/melee.wav"
+AltFlashSound0	"Sound/chars/Death_Trooper/misc/melee.wav"
+primGore	1
+altGore	1
+idleAnim	BOTH_INAIRBACK1
+firingAnim	BOTH_BURSTMISS
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/noweap/noweap.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_melee"
+WeaponName	"Claws"
+}
+description ""

@@ -1,0 +1,15 @@
+//Supremacy Class Prefix: s_usu_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Shadows of Dathomir
+name "Sup_Good12-M"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1  "s_usu_sold"
+class2  "s_usu_solm"
+class3  "s_usu_ofcw"
+class4  "s_usu_vang"
+}
+//1-6

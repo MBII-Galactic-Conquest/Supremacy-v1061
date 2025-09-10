@@ -1,0 +1,6 @@
+{
+map			"mb2_sup_duel_krayt"
+longname		"supremacy krayt duel"
+fraglimit		10
+type			"duel powerduel"
+}

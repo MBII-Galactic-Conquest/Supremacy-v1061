@@ -1,0 +1,54 @@
+repeatDelay				1000
+
+Particle
+{
+	name				Core
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				-0.8 0 0
+
+	radius				0
+
+	height				0
+
+	rotation			0 360
+
+	size
+	{
+		start			0.1 0.2
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow.jpg
+	]
+}
+
+Particle
+{
+	name				Glow
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				-0.8 0 0
+
+	radius				0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 0 0
+	}
+
+	size
+	{
+		start			0.25 0.35
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow.jpg
+	]
+}

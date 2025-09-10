@@ -1,0 +1,117 @@
+ClassInfo
+{
+name	"s_2ca_pjt"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_BLASTER|WP_ROCKET_LAUNCHER|WP_PULSE_NADE
+attributes	MB_ATT_CLONE_PISTOL,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ARMOUR,3|MB_ATT_BLASTER,3|MB_ATT_ROCKET_LAUNCHER,1|MB_ATT_AMMO,3|MB_ATT_QUICKTHROW,1|MB_ATT_PULSE_GRENADES,1|MB_ATT_CCTRAINING,2|MB_ATT_JETPACK,1|MB_ATT_FUEL,2
+maxhealth	100
+maxarmor	50
+customred	0.451
+customgreen	0.71
+customblue	0.31
+model	"clonetrooper_p1"
+skin	"legendsjet"
+uishader	"gfx/sup_icons/clonep1_jet/mb2_icon_jet"
+MBClass	"MB_CLASS_BOUNTY_HUNTER"
+extralives	1
+speed	0.7
+//jetpackJetTag	*jetpack_jet
+//jetpackJetTag	*jetpack_jet
+//jetpackJet2Tag	*jetpack_jet2
+//jetpackJetOffset	"0, 0, 4"
+//jetpackJet2Offset	"0, 0, 4"
+classNumberLimit	4
+resource	RESOURCE_FUEL
+special4	EAS_HI_QUICKTHROW
+WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_PULSE|HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_EXPLOSIVE
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/dc-17/dc-17_w.glm"
+NewViewModel	"models/weapons2/dc-17/dc-17.md3"
+Icon	"gfx/hud/w_icon_dc-17"
+WeaponName	"DC-17 Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	200
+clipSize	100
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dc-15s/dc-15s_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15s.md3"
+Icon	"gfx/hud/w_icon_dc-15s"
+WeaponName	"DC-15s Clone Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_ROCKET_LAUNCHER
+WeaponBasedOff	WP_ROCKET_LAUNCHER
+MuzzleEffect	"upl/muzzle_flash"
+AltMuzzleEffect	"upl/altmuzzle_flash"
+MissileEffect	"upl/shot"
+AltMissileEffect	"upl/shot"
+MissileMissEffect	"Rockets/ExplosionPulse"
+MissileHitHumanEffect	"Rockets/ExplosionPulse"
+MissileHitDroidEffect	"Rockets/ExplosionPulse"
+MissileSound	"sound/weapons/upl/missleloop.wav"
+MissileModel	"models/weapons2/upl/projectile_a.md3"
+FlashSound0		"sound/weapons/upl/fire_rocket.wav"
+NewWorldModel	"models/weapons2/upl/upl_w.glm"
+NewViewModel	"models/weapons2/upl/upl.md3"
+WeaponName	"Electromagnetic Pulse Launcher"
+Icon		"gfx/hud/w_icon_upl"
+clipSize	1
+customAmmo	2
+ReloadTimeModifier	1.4
+altfireenabled	0
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod 0.4
+NewBarrelModel	"models/weapons2/upl/upl_barrel.md3"
+}
+description ""

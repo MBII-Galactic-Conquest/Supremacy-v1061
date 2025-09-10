@@ -1,0 +1,1 @@
+q3map2.exe -game ja -onlyents mb2_boc.ent

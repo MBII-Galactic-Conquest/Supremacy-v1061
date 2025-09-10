@@ -1,0 +1,14 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Galactic Civil War
+name "Sup_GN"
+ClassesAllowed 2
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_gn_sold"
+class2	"s_gn_ofc"
+}
+//1-6
+//--
+//1-11

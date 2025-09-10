@@ -1,0 +1,48 @@
+//Siege class def file.
+ClassInfo
+{
+name	"s_6vr_dtr"
+weapons	WP_MELEE|WP_CLONE_RIFLE
+attributes	MB_ATT_CLONERIFLE,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_STAMINA,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_DEXTERITY,2|MB_ATT_GUNBASH
+extralives	1
+maxhealth	100
+maxarmor	100
+model	"deathtrooper"
+skin	"default"
+uishader	"models/players/deathtrooper/mb2_icon_default"
+MBClass	MB_CLASS_ARCTROOPER
+classNumberLimit  2
+modelscale	1.075
+classflags	CFL_SEEING_STEALTH
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_RIFLE
+WeaponBasedOff	WP_CLONE_RIFLE
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"E-11D"
+MuzzleEffect  "Blaster/MuzzleFlash01R"
+MissileEffect "Blaster/Shot02R"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+}
+description ""

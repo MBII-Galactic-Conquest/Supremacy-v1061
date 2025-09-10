@@ -1,0 +1,116 @@
+repeatDelay				50
+
+Line
+{
+	name				line1
+
+	flags				usePhysics impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	origin				-0.8 0 0
+
+	origin2				4 0 0
+
+	alpha
+	{
+		start			0.01 0.05
+	}
+
+	size
+	{
+		start			0.05 0.075
+	}
+
+	shaders
+	[
+		gfx/misc/whiteLine2
+	]
+
+	impactfx
+	[
+		tripmine/laserimpactglowmp
+	]
+}
+
+Line
+{
+	name				line2
+
+	spawnFlags			org2fromTrace cheapOrg2Calc
+
+	origin				-0.8 0 0
+
+	rgb
+	{
+		start			1 0 0
+	}
+
+	alpha
+	{
+		start			0.01 0.05
+	}
+
+	size
+	{
+		start			0.2 0.3
+	}
+
+	shaders
+	[
+		gfx/misc/whiteLine2
+	]
+}
+
+Particle
+{
+	name				Core
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				-0.8 0 0
+
+	radius				0
+
+	height				0
+
+	rotation			0 360
+
+	size
+	{
+		start			0.1 0.2
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow.jpg
+	]
+}
+
+Particle
+{
+	name				Glow
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				-0.8 0 0
+
+	radius				0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 0 0
+	}
+
+	size
+	{
+		start			0.25 0.35
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow.jpg
+	]
+}

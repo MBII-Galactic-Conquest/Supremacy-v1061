@@ -1,0 +1,23 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Mandalorian Wars
+name "Sup_Evil3-G"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_3mf_solg"
+class2	"s_3mf_ofc"
+class3	"s_3mf_hvg"
+class4	"s_3mf_hvr"
+class5	"s_3mf_jet"
+class6	"s_3mf_spy"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_3mf_flm"
+Subclass2	"s_3mf_vet"
+Subclass3	"s_3mf_sni"
+}
+//1-11

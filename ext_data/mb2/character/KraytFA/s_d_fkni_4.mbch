@@ -1,0 +1,83 @@
+//Siege class def file.
+ClassInfo
+{
+name	"s_d_fkni_4"
+weapons	WP_MELEE|WP_SABER|WP_BLASTER
+saberstyle	SS_MEDIUM|SS_TAVION
+forcepowers	FP_LEVITATION,1|FP_PUSH,2|FP_PULL,2|FP_SEE,1|FP_SPEED,1|FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,2
+attributes	MB_ATT_GUN_DEFENSE,1|MB_ATT_BLASTER,1|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,1|MB_ATT_DEFLECT,1|MB_ATT_CORTOSIS,1
+classflags	CFL_BPFREEJUMPS
+maxhealth	100
+maxarmor	50
+forcepool	70
+speed	0.95
+modelscale	1.0
+BPmultiplier	0.9
+APmultiplier	1.0
+MBClass	MB_CLASS_JEDI
+damageGiven	1.10
+model	"Kaizen"
+skin	"default"
+uishader	"gfx/sup_icons/krayt_fa/knight4"
+saber1	saber_imperial_supremacy
+saber2	none
+sabercolor	6
+saber2color	6
+saber1_1	lightsaber_pike_supremacy
+saber2_1	none
+sabercolor_1	6
+saber2color_1	6
+classNumberLimit	1
+WP_MeleeFlags	HELD_STUN
+special1	EAS_FP_SABERTHROW
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mp/duel/sup_fel_gauntlets"
+WeaponName	"Cortosis Gauntlets"
+damageMod	0
+rateMod	1.5
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"E-11 Imperial Carbine"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot03R"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	100
+clipSize	100
+FPMult	1.5
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+description ""

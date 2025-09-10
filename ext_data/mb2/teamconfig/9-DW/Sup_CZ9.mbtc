@@ -1,0 +1,16 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Dark Wars
+name "Sup_CZ9"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_9cz_sold"
+class2	"s_9cz_ofc"
+class3	"s_9cz_ran"
+class4	"s_9cz_h24"
+}
+//1-6
+//--
+//1-11

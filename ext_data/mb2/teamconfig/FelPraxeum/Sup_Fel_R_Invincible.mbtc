@@ -1,0 +1,13 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Fel Praxeum Duel Training FA
+//Invincible
+name "Sup_Fel_R_Invincible"
+ClassesAllowed 2
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_dr_fkni_pi"
+class2	"s_dr_fkni_pic"
+}
+//1-6

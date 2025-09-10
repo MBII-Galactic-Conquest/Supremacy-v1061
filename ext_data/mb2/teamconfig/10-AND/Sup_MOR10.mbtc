@@ -1,0 +1,12 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Rise of the Galactic Empire
+name "Sup_MOR10"
+ClassesAllowed 2
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_10mo_sold"
+class2	"s_10mo_ofc"
+}
+//1-6

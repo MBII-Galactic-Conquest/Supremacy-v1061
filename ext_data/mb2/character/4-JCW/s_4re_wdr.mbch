@@ -1,0 +1,61 @@
+ClassInfo
+{
+name	"s_4re_wdr"
+weapons	WP_EE4
+attributes	MB_ATT_FIREPOWER,0|MB_ATT_EE4,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_BESKAR,3|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_CORTOSIS,1|MB_ATT_RECHARGE,2|MB_ATT_ANTI_MT,1|MB_ATT_GUNBASH
+maxhealth	20
+maxarmor	60
+forcepool	50
+forceregen	2
+MBClass	MB_CLASS_SOLDIER
+classflags	CFL_NOLOCATIONDAMAGE|CFL_DISMEMBERFRAGILE
+extralives	2
+classNumberLimit	3
+speed	0.7
+model	"wardroid"
+skin	"default"
+uishader	"gfx/sup_icons/wardroid/mb2_icon_vang"
+deathAnim	SBD_DEATH
+WalkForward	SBD_WALK_NOGUN
+WalkBackward	SBD_WALKBACK_NOGUN
+resource	RESOURCE_BATTERY
+special1	EAS_HI_RECHARGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
+NewViewModel	"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
+Icon	"gfx/hud/w_icon_kotor_reprifle"
+WeaponName	"Scoped Sith Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+customAmmo	800
+clipSize	100
+FPMult	0.8
+}
+description ""

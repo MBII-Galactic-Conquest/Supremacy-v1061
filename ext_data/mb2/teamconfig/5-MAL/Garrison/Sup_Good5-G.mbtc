@@ -1,0 +1,27 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Malgus Wars
+name "Sup_Good5-G"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_5or_solg"
+class2	"s_5or_ofc"
+class3	"s_5or_jeds"
+class4	"s_5or_hvg"
+class5	"s_5or_hvr"
+class6	"s_5or_hg1"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_5or_tsj"
+Subclass2	"s_5or_wook"
+Subclass3	"s_5or_spy"
+Subclass4	"s_5or_flm"
+Subclass5	"s_5or_vang"
+Subclass6	"s_5or_gj3"
+Subclass7	"s_5or_sni"
+}
+//1-11

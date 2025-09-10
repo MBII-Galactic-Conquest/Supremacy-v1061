@@ -1,0 +1,81 @@
+ClassInfo
+{
+name	"s_16ie_gs1"
+weapons	WP_MELEE|WP_SABER
+forcepowers	FP_LEVITATION,3|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3|FP_SEE,2|FP_PUSH,3|FP_PULL,2|FP_LIGHTNING,2|FP_GRIP,2|FP_SABERTHROW,3
+attributes	MB_ATT_BESKAR,3|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_FLIPKICK,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_DEFLECT,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_CORTOSIS,1|MB_ATT_GUNBASH
+classflags	CFL_BPFREEJUMPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+maxhealth	300
+maxarmor	5
+forcepool	100
+speed	1
+modelscale	1.2
+BPmultiplier	1.0
+APmultiplier	1.0
+MBClass	MB_CLASS_JEDI
+damageGiven	1.10
+model	"Rakata"
+skin	"default_3"
+uishader	"gfx/sup_icons/rakata_3/mb2_icon_jedi"
+rateoffire	2
+//rateoffire_melee	2
+rageSoundOverride	"sound/chars/rakata/misc/pain100.wav"
+bargeSoundOverride	"sound/chars/rakata/misc/pain25.wav"
+saber1	lightsaber_pike_supremacy
+saberstyle	SS_MEDIUM|SS_DESANN|SS_STRONG
+saberStanceAnim	BOTH_TAVION_STANCE
+sabercolor	1
+tauntAnim	BOTH_MAUL_TAUNT
+flourishAnim	BOTH_TUSKENTAUNT1
+gloatAnim	BOTH_VICTORY_FAST
+resource	RESOURCE_FORCE
+special1	EAS_FP_SABERTHROW
+special2	EAS_HI_FURY
+special4	EAS_HI_BARGE
+//extralives	1
+classNumberLimit	2
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Duelist"
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/saber_plasma/saber_bastila.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_lightsaber"
+WeaponName	"Forcesaber"
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
+}
+description ""

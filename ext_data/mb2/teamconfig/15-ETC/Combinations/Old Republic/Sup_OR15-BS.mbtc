@@ -1,0 +1,16 @@
+//Supremacy Class Prefix: s_15or_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Eternal Empire
+name "Sup_OR15-BS"
+ClassesAllowed 5
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_15or_slbs"
+class2	"s_15or_vang"
+class3	"s_15or_ofcw"
+class4	"s_15or_med"
+class5	"s_15or_eng"
+}
+//1-6

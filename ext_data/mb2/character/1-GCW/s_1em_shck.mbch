@@ -1,0 +1,80 @@
+ClassInfo
+{
+name	"s_1em_shck"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_EE3|WP_PULSE_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_EE3,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_JETPACK,1|MB_ATT_FUEL,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+forcepowers	FP_LIGHTNING,1
+maxhealth	100
+maxarmor	75
+forcepool	50
+model	"darktrooper_p0"
+skin	"default"
+uishader	"gfx/sup_icons/darktrooper_p0/mb2_icon_vang"
+MBClass	"MB_CLASS_MANDALORIAN"
+extralives	1
+speed	0.7
+classNumberLimit	2
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+resource	RESOURCE_RAGE
+WP_EE3Flags	HELD_PULSE|HELD_SLOW|HELD_ALTRELOAD
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/imp_pistol/pistol_w.glm"
+NewViewModel	"models/weapons2/imp_pistol/pistol_fpv.md3"
+Icon	"gfx/hud/w_icon_imp_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_EE3
+WeaponBasedOff	WP_EE3
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"E-11 Shock Carbine"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot03B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileMissEffect	"effects/impacts/impactsmallblue1"
+AltMissileMissEffect	"effects/impacts/impactsmallblue1"
+MissileHitHumanEffect "effects/impacts/impactsmallblue1"
+MissileHitDroidEffect "effects/impacts/impactsmallblue1"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound4	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	500
+clipSize	50
+FPMult	0.8
+ReloadTimeModifier	2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+description ""

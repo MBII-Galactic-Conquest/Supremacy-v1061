@@ -1,0 +1,82 @@
+ClassInfo
+{
+name	"s_7cd_ma3"
+weapons	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_A280|WP_PULSE_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_BESKAR,3|MB_ATT_AMMO,3|MB_ATT_A280,3|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,2|MB_ATT_FORCEBLOCK,2|MB_ATT_QUICKTHROW,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_CCTRAINING,2|MB_ATT_JETPACK,2|MB_ATT_ROCKET|MB_ATT_FUEL,3
+forcepowers	FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,2
+classflags	CFL_STRONGAGAINSTPHYSICAL
+saber1	kotor_vibrosword_supremacy
+saberstyle	SS_MEDIUM
+saber1_1	kotor_vibrostaff_supremacy
+saberstyle_1	SS_STAFF
+forcepool	50
+maxhealth	100
+maxarmor	30
+customred	0.1
+customgreen	0.1
+customblue	0.1
+model	"deathwatch"
+skin	"mauldalorian"
+uishader	"models/players/deathwatch/red"
+MBClass	MB_CLASS_CLONETROOPER
+speed	0.8
+//jetpackJetTag	*jetpack_jet
+//jetpackJet2Tag	*jetpack_jet2
+//jetpackJetOffset	"0, 0, 4"
+//jetpackJet2Offset	"0, 0, 4"
+resource	RESOURCE_FUEL
+special1	EAS_HI_ROCKET
+special2	EAS_HI_FLAME
+special3	EAS_HI_WRIST
+special4	EAS_HI_QUICKTHROW
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/westar35/westar35.glm"
+NewViewModel	"models/weapons2/westar35/model.md3"
+Icon	"gfx/hud/w_icon_westar35"
+WeaponName	"Westar Pistol"
+FlashSound0	"sound/weapons/westar/fire.mp3"
+AltFlashSound0	"sound/weapons/westar/alt_fire.mp3"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/ee-3/ee-3_w.glm"
+NewViewModel	"models/weapons2/ee-3/ee-3.md3"
+Icon	"gfx/hud/w_icon_ee-3"
+WeaponName	"Mandalorian EE-3 Rifle"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+}
+description ""

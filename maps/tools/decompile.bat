@@ -1,0 +1,1 @@
+q3map2 -game ja -convert -format map mb2_cmp_arena.bsp

@@ -1,0 +1,78 @@
+ClassInfo
+{
+// s_db_fkni_pic
+// invincible fel knight, praxeum duel character
+// duel training purposes, complex duelist
+name	"s_db_fkni_pic"
+weapons	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL
+forcepowers	FP_LEVITATION,3|FP_PUSH,3|FP_PULL,3|FP_SEE,2|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3|FP_SABERTHROW,3|FP_SPEED,3
+attributes	MB_ATT_GUN_DEFENSE,3|MB_ATT_PISTOL,3|MB_ATT_HEALING,3|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,2|MB_ATT_CORTOSIS,1
+classflags	CFL_BPFREEJUMPS
+maxhealth	100
+maxarmor	50
+forcepool	125
+speed	1.0
+modelscale	1.0
+damageTaken	0
+damageGiven	0
+knockbackTaken	0
+saberDamage -1
+MBClass	MB_CLASS_JEDI
+model	"Foxheart"
+skin	"default"
+uishader	"models/players/imperialknight/mb2_icon_foxheart"
+model_1	"Jiix"
+skin_1	"default"
+uishader_1	"models/players/imperialknight/mb2_icon_jiix"
+model_2	"Kaizen"
+skin_2	"default"
+uishader_2	"models/players/imperialknight/mb2_icon_kaizen"
+model_3	"Dain"
+skin_3	"default"
+uishader_3	"models/players/imperialknight/mb2_icon_dain"
+model_4	"Draconis"
+skin_4	"default"
+uishader_4	"models/players/imperialknight/mb2_icon_draconis"
+model_5	"Vuk"
+skin_5	"default"
+uishader_5	"models/players/imperialknight/mb2_icon_vuk"
+saber1	saber_imperial_supremacy
+saber2	saber_imperial_supremacy
+saberstyle	SS_DUAL|SS_MEDIUM|SS_FAST|SS_STRONG|SS_DESANN|SS_TAVION
+sabercolor	6
+saber2color	6
+saber1_1	saber_imperialstaff_supremacy
+saber2_1	none
+saberstyle_1	SS_STAFF|SS_MEDIUM|SS_FAST|SS_STRONG|SS_DESANN|SS_TAVION
+sabercolor_1	6
+saber2color_1	6
+WP_MeleeFlags	HELD_LOWDAMAGE
+special1	EAS_FP_SABERTHROW
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mp/duel/sup_fel_gauntlets"
+WeaponName	"Cortosis Gauntlets"
+damageMod	-1
+}
+description ""

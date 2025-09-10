@@ -1,0 +1,176 @@
+ClassInfo
+{
+name	"s_16ie_vet"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_SABER
+forcepowers	FP_LEVITATION,1|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,1|FP_ABSORB,2|FP_PUSH,1
+attributes	MB_ATT_LIGHTS_BEACON|MB_ATT_BESKAR,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_WOOKIEE_FURY,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_CORTOSIS,1|MB_ATT_GUNBASH
+classflags	CFL_BPFREEJUMPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_STATVIEWER
+maxhealth	185
+maxarmor	15
+forcepool	50
+speed	0.65
+modelscale	1.2
+BPmultiplier	1.0
+APmultiplier	1.0
+MBClass	"MB_CLASS_BOUNTY_HUNTER"
+model	"Rakata"
+skin	"default"
+uishader	"gfx/sup_icons/rakata/mb2_icon_vang"
+rageSoundOverride	"sound/chars/rakata/misc/pain100.wav"
+bargeSoundOverride	"sound/chars/rakata/misc/pain25.wav"
+saber1	rakatan_vibrostaff_supremacy
+saberstyle	SS_STAFF
+saberStanceAnim	BOTH_TAVION_STANCE
+tauntAnim	BOTH_MAUL_TAUNT
+flourishAnim	BOTH_TUSKENTAUNT1
+gloatAnim	BOTH_VICTORY_FAST
+isCustomBuild	1
+mbPoints	18
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Sergeant"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sgt"
+customSpecDesc_1	""
+customSpecName_2	"Corpsman"
+customSpecIcon_2	"gfx/sup_builds/units/sup_corp"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_FP_TEAM_FORCE
+c_att_names_1	"Morale Boost"
+c_att_ranks_1	1,1
+c_att_skill_2	MB_ATT_ASSEMBLE
+c_att_names_2	"Assemble"
+c_att_ranks_2	1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-Weapon Availability-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_T21
+c_att_names_5	"Heavy Battle Rifle:"
+c_att_ranks_5	13,1,1
+c_att_skill_6	MB_ATT_A280
+c_att_names_6	"Burst Battle Rifle:"
+c_att_ranks_6	13,1,1
+c_att_skill_16	MB_ATT_DISP_HEALTH
+c_att_names_16	"Treat Soldiers"
+c_att_ranks_16	1
+c_att_skill_18	MB_ATT_INVALID
+c_att_names_18	"^5-Weapon Availability-"
+c_att_ranks_18	-1
+c_att_skill_19	MB_ATT_T21
+c_att_names_19	"Heavy Battle Rifle:"
+c_att_ranks_19	13,1,1
+c_att_skill_20	MB_ATT_A280
+c_att_names_20	"Burst Battle Rifle:"
+c_att_ranks_20	13,1,1
+resource	RESOURCE_RAGE
+extralives	1
+classNumberLimit	4
+special1	EAS_HI_DASH
+special2	EAS_HI_FURY
+special4	EAS_HI_BARGE
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_vibroswords/vibrostaff_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_oldrepswords"
+WeaponName	"Rakatan Vibrostaff"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
+NewViewModel	"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
+Icon	"gfx/hud/w_icon_kotor_reprifle"
+WeaponName	"Rakatan Burst Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.05
+}
+WeaponInfo4
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
+NewViewModel	"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
+Icon	"gfx/hud/w_icon_kotor_reprifle"
+WeaponName	"Rakatan Heavy Blaster"
+FlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_med.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.025
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
+}
+ForceInfo1
+{
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+}
+ForceInfo2
+{
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mp/sup_vet_nullify"
+ForcePowerName	"Nullify Force"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+ForceInfo3
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_morale_boost"
+ForcePowerName	"Morale Boost"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

@@ -1,0 +1,157 @@
+ClassInfo
+{
+name	"s_2ca_longr"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_PULSE_NADE|WP_FRAG_NADE
+attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,2|MB_ATT_DEXTERITY,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+classflags	CFL_STATVIEWER
+maxhealth	85
+maxarmor	50
+model	"clonetrooper_p1"
+skin	"default"
+uishader	"gfx/sup_icons/clonetrooper_p1/mb2_icon_vang"
+MBClass	"MB_CLASS_CLONETROOPER"
+extralives	1
+speed	0.8
+classNumberLimit	4
+model_1	"clonetrooper_p1"
+skin_1	"poncho"
+uishader_1	"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_vang"
+isCustomBuild	1
+mbPoints	18
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Sergeant"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sgt"
+customSpecDesc_1	""
+customSpecName_2	"Corpsman"
+customSpecIcon_2	"gfx/sup_builds/units/sup_corp"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_FP_TEAM_FORCE
+c_att_names_1	"Morale Boost"
+c_att_ranks_1	1,1
+c_att_skill_2	MB_ATT_ASSEMBLE
+c_att_names_2	"Assemble"
+c_att_ranks_2	1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-Weapon Availability-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_T21
+c_att_names_5	"Heavy Rifle:"
+c_att_ranks_5	13,1,1
+c_att_skill_6	MB_ATT_A280
+c_att_names_6	"Burst Rifle:"
+c_att_ranks_6	13,1,1
+c_att_skill_16	MB_ATT_DISP_HEALTH
+c_att_names_16	"Treat Soldiers"
+c_att_ranks_16	1
+c_att_skill_18	MB_ATT_INVALID
+c_att_names_18	"^5-Weapon Availability-"
+c_att_ranks_18	-1
+c_att_skill_19	MB_ATT_T21
+c_att_names_19	"Heavy Rifle:"
+c_att_ranks_19	13,1,1
+c_att_skill_20	MB_ATT_A280
+c_att_names_20	"Burst Rifle:"
+c_att_ranks_20	13,1,1
+special1	EAS_HI_DASH
+special2	EAS_HI_KICK
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Republic Burst Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.05
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Republic Heavy Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire_2.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash05B"
+AltMuzzleEffect	"Blaster/MuzzleFlash03B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.025
+}
+ForceInfo0
+{
+ForceToReplace	FP_PUSH
+Icon		"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
+}
+ForceInfo1
+{
+ForceToReplace	FP_ABSORB
+Icon		"gfx/mp/sup_vet_nullify"
+ForcePowerName	"Nullify Force"
+StartSound		"sound/forcesup/protect.mp3"
+LoopSound		"sound/forcesup/protectloop.wav"
+}
+ForceInfo2
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_morale_boost"
+ForcePowerName	"Morale Boost"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

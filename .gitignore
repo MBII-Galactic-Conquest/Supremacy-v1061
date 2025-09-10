@@ -1,0 +1,5 @@
+*.code-workspace
+ext_data/mb2/teamconfig/triage/*
+ext_data/mb2/teamconfig/gather/*
+ext_data/mb2/character/triage/*
+ext_data/mb2/character/gather/*

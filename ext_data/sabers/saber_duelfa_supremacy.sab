@@ -1,0 +1,55 @@
+saber_krayt_supremacy
+{
+	name		"Krayt Saber"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_dough/saber_asharad1.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum1.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	red
+	saberLength	40
+	isOpenMode	0
+}
+
+saber_krayt_supremacy2
+{
+	name		"Krayt Saber 2"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_plasma/saber_sharad.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum1.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	red
+	saberLength	40
+	isOpenMode	0
+}
+
+saber_imperialstaff_supremacy
+{
+	name  		"Imperial Knight Staff"
+	saberType	SABER_STAFF
+	saberModel  "models/weapons2/saber_plasma/saber_maul.glm"
+	saberColor	white
+	numBlades	2
+	saberLength	40
+	saberStyle	staff
+	throwable	1
+	singleBladeStyle	medium
+	singleBladeThrowable	1
+	brokenSaber1	saber_maul_broke
+	brokenSaber2	saber_maul_broke
+	twoHanded	1
+	bowAnim BOTH_CROUCH3
+	//slapAnim    LS_HILT_BASH
+	lungeAtkMove LS_HILT_BASH
+	soundOn		"s/w/s/on.wav"
+	soundLoop	"s/w/s/dm_hum.wav"
+	soundOff		"s/w/s/off.wav"
+	spinsound	"s/w/s/spin.wav"
+	hitSound1	"s/w/s/hit1.mp3"
+	hitSound2	"s/w/s/hit2.mp3"
+	hitSound3	"s/w/s/hit3.mp3"
+	bounceSound1	"s/w/s/bounce1.mp3"	
+	bounceSound2	"s/w/s/bounce2.mp3"
+	bounceSound3	"s/w/s/bounce3.mp3"
+}

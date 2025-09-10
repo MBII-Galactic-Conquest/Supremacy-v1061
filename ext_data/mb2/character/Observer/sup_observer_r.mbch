@@ -1,0 +1,67 @@
+//Siege class def file.
+ClassInfo
+{
+name "sup_observer_r"
+uishader "gfx/sup_icons/observer/qr"
+MBClass MB_CLASS_OBSERVER
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/supremacy"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/sup_version"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_intro_2"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"^5PRESS ^7[i] ^5FOR MORE INFO"
+c_att_ranks_0	-1
+c_att_skill_15	MB_ATT_INVALID
+c_att_names_15	"^5PRESS ^7[i] ^5FOR MORE INFO"
+c_att_ranks_15	-1
+c_att_skill_30	MB_ATT_INVALID
+c_att_names_30	"^5PRESS ^7[i] ^5FOR MORE INFO"
+c_att_ranks_30	-1
+}
+
+description "
+^7=======================
+^8WELCOME TO SUPREMACY
+^3THANK YOU FOR PLAYING!!
+^7=======================
+
+^2PLEASE SUPPORT US!!
+^9discord.gg/puSF8Yz93K
+
+^5FOR MOST OPTIMAL EXPERIENCE:
+^7ENABLE ^9cl_serversounds ^7(^51^7)
+
+^7LISTS:
+^9!eralist ^7- view list of all eras
+^9!bonuslist ^7- view list of all bonuses
+^9!maplist ^7- view list of all available maps
+
+^7NOMINATIONS:
+^9!nom ^7- nominate a map by name
+^9!era ^7- nominate an era by integer
+^9!bonus ^7- nominate a combat bonus by ^7acronym
+^9!rera ^7- remove era nomination
+^9!rbonus ^7- remove bonus nomination
+
+^7CIRCUMSTANCE VOTING:
+^9!rte ^7- rock the era
+^9!rtb ^7- rock the bonus
+^9!rtv ^7- rock the vote
+
+^7MISCELLANEOUS:
+^9!credits ^7- view credits pool team balance
+^9!tickets ^7- view remaining reinforcements tickets
+^9!search ^7- find maps to nominate by name
+
+^7All bonus voting is handled in team chat!
+
+^5CLASS SPECIALS: ^9t.ly/zxV6J"

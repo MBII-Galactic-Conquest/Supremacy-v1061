@@ -1,0 +1,13 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Fel Praxeum Duel Training FA
+//Killable
+name "Sup_Fel_R_Killable"
+ClassesAllowed 2
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_dr_fkni_p"
+class2	"s_dr_fkni_pc"
+}
+//1-6

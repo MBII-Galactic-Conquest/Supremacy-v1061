@@ -1,0 +1,85 @@
+ClassInfo
+{
+name	"s_7nr_med"
+weapons	WP_MELEE|WP_FRAG_NADE|WP_BLASTER_PISTOL|WP_BLASTER
+attributes	MB_ATT_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_BLASTER,2|MB_ATT_DASH,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_ARMOUR,0|MB_ATT_AMMO,3|MB_ATT_CCTRAINING,2|MB_ATT_FLIPKICK,2|MB_ATT_GUNBASH|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DISP_HEALTH,2
+classflags	CFL_STATVIEWER
+holdables	HI_MEDPAC|HI_MEDPAC_BIG
+forcepowers	FP_TEAM_HEAL,2
+maxhealth	100
+maxarmor	20
+forcepool	50
+customred	1
+customgreen	0.1
+customblue	0.1
+model	"rebel_pilot"
+skin	"rgb"
+uishader	"gfx/sup_icons/rebel_pilot/mb2_icon_med"
+MBClass	"MB_CLASS_HERO"
+speed	0.7
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+classNumberLimit	1
+resource	RESOURCE_RAGE
+special1	EAS_HI_DASH
+special4	EAS_HI_HEALTHDISP
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dh-17/dh-17_w.glm"
+NewViewModel	"models/weapons2/dh-17/dh-17.md3"
+Icon	"gfx/hud/w_icon_dh-17"
+WeaponName	"DH-17 Rebel Carbine"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+ForceInfo0
+{
+ForceToReplace	FP_TEAM_HEAL
+Icon	"gfx/mp/sup_med_heal"
+ForcePowerName	"Team Bacta Mist"
+StartSound	"sound/player/pickuphealth.mp3"
+}
+description ""

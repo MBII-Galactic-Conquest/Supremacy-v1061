@@ -1,0 +1,48 @@
+repeatDelay				50
+
+OrientedParticle
+{
+	name				Core
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				4 0 0
+
+	rotation			0 360
+
+	size
+	{
+		start			0.1 0.2
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+OrientedParticle
+{
+	name				Glow
+
+	spawnFlags			absoluteVel absoluteAccel
+
+	origin				4 0 0
+
+	rotation			0 360
+
+	rgb
+	{
+		start			1 0 0
+	}
+
+	size
+	{
+		start			0.25 0.35
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}

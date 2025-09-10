@@ -1,0 +1,16 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Duel Krayt FA
+name "Sup_Duel_Knights"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"sup_observer_r"
+class2	"s_d_mohrgan"
+class3	"s_d_fkni_1"
+class4	"s_d_fkni_2"
+class5	"s_d_fkni_3"
+class6	"s_d_fkni_4"
+}
+//1-6

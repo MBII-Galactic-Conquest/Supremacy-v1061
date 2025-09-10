@@ -1,0 +1,25 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Dark Wars
+name "Sup_Good9-CG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_9ex_slcg"
+class2	"s_9ex_ofc"
+class3	"s_9ex_hvg"
+class4	"s_9ex_hvr"
+class5	"s_9ex_jet"
+class6	"s_9ex_wook"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_9ex_spy"
+Subclass2	"s_9ex_flm"
+Subclass3	"s_9ex_gj3"
+Subclass4	"s_9ex_vang"
+Subclass5	"s_9ex_sni"
+}
+//1-11

@@ -1,0 +1,31 @@
+//Supremacy Class Prefix: s_17da_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Clone Wars
+name "Sup_Evil17-ENG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1  "s_17da_bd1"
+class2  "s_17da_vet"
+class3  "s_17da_bd4"
+class4  "s_17da_bd5"
+class5  "s_17da_bd2"
+class6  "s_17da_bd3"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1   "s_17da_jet2"
+Subclass2   "s_17da_spy"
+Subclass3   "s_17da_bd6"
+Subclass4   "s_17da_sbd1"
+Subclass5   "s_17da_sbd2"
+Subclass6   "s_17da_sbd3"
+Subclass7   "s_17da_dk1"
+Subclass8   "s_17da_dk2"
+Subclass9   "s_17da_dk3"
+Subclass10  "s_17da_mg2"
+}
+//1-11

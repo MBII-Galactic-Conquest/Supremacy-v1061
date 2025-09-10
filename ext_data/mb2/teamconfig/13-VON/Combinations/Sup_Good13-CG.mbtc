@@ -1,0 +1,27 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Hordes of the Yuuzhan Vong
+name "Sup_Good13-CG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_13ga_slcg"
+class2	"s_13ga_ofc"
+class3	"s_13ga_vang"
+class4	"s_13ga_hvg"
+class5	"s_13ga_hvr"
+class6	"s_13ga_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_13ga_nrd"
+Subclass2	"s_13ga_wook"
+Subclass3	"s_13ga_spy"
+Subclass4	"s_13ga_flm"
+Subclass5	"s_13ga_gj3"
+Subclass6	"s_13ga_yvh"
+Subclass7	"s_13ga_sni"
+}
+//1-11

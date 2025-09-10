@@ -1,0 +1,51 @@
+//Siege class def file.
+ClassInfo
+{
+name	"grievous_clonesenate"
+weapons	WP_MELEE|WP_SABER|WP_CLONE_PISTOL|WP_CLONE_RIFLE|WP_FRAG_NADE
+attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_CLONERIFLE,3|MB_ATT_CORTOSIS,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_STRONGBLOBS,1|MB_ATT_FRAGS,1|MB_ATT_AMMO,3|MB_ATT_RALLY
+forcepowers	FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,1
+maxhealth	200
+maxarmor	75
+forcepool	100
+model	"clonesenate"
+skin	"default"
+uishader	"models/players/clonesenate/mb2_icon_default"
+MBClass	MB_CLASS_CLONETROOPER
+modelscale	1.01
+saber1	Guard_pike_grievousFA
+saberstyle	SS_MEDIUM
+sabercolor	0
+extralives	1
+classnumberlimit	2
+resource	RESOURCE_STAMINA
+special1	EAS_HI_SPRINT
+special2	EAS_HI_DASH
+special4	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/saber_forcepike/saber_forcepike.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_forcepike"
+WeaponName	"Force Pike"
+}
+description ""

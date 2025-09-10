@@ -1,0 +1,2 @@
+mbiided.x86.exe +set dedicated 2 +set fs_game "MBII" +set sv_maxConnections 10 +set rconpassword test +set net_port 29070 +set g_minmbpoints 80 +set g_anticheat 0 +set g_gametype 7 +set sv_hostname "^7MBII Test Server" +set sv_master1 "" +set sv_maxclients 32 +set sv_pure 0 +set g_smodAdminPassword_1 "test" +set g_smodConfig_1 "65535" +set g_smodAdminPassword_2 "test" +set g_smodConfig_2 "57644" +set sv_master1 "" +set g_authenticity "4" +set g_siegeteam1 "INT_Soldier" +set g_siegeteam2 "INT_Officer" +devmap gc_intermission
+Pause&Exit

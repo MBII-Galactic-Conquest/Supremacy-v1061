@@ -1,0 +1,84 @@
+ClassInfo
+{
+name	"s_15et_hvg"
+weapons	WP_MINIGUN|WP_FIRE_NADE
+attributes	MB_ATT_MINIGUN,3|MB_ATT_DODGE,2|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_BESKAR,1|MB_ATT_RECHARGE,1|MB_ATT_BLAST_ARMOUR|MB_ATT_ANTI_MT,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_CORTOSIS,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_JETPACK|MB_ATT_FUEL,1|MB_ATT_FIRE_GRENADES,2
+forcepowers	FP_RAGE,3
+maxhealth	50
+maxarmor	55
+forcepool	100
+model	"skytrooper"
+skin	"default"
+uishader	"gfx/sup_icons/skytrooper/mb2_icon_hvg"
+MBClass	MB_CLASS_MANDALORIAN
+extralives	1
+speed	0.8
+//jetpackJetTag	*jetpack_jet
+//jetpackJet2Tag	*jetpack_jet2
+//jetpackJetOffset	"0, 0, 4"
+//jetpackJet2Offset	"0, 0, 4"
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+rateoffire	1.5
+damageGiven	1.1
+damageTaken	0.95
+knockbackGiven	1.2
+classNumberLimit	2
+WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+respawnCustomTime	10000
+resource	RESOURCE_FUEL
+special1	EAS_HI_DODGE
+special2	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MINIGUN
+WeaponBasedOff	WP_MINIGUN
+NewWorldModel	"models/weapons2/mgun/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/mgun/heavy_repeater.md3"
+NewHandsModel	"models/weapons2/mgun/heavy_repeater_hand.md3"
+NewBarrelModel	"models/weapons2/mgun/heavy_repeater_barrel.md3"
+Icon	"gfx/hud/w_icon_rotary_cannon"
+WeaponName	"Skytrooper Minigun"
+FlashSound0	"sound/weapsup/sup/minigun_fire.mp3"
+FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound0	"sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+ReloadTimeModifier	2
+FPMult	0.8
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/mp/sup_laser_barrage"
+ForcePowerName	"Laser Barrage"
+StartSound	"sound/forcesup/barrage.mp3"
+}
+description ""

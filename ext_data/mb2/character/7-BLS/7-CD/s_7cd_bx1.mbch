@@ -1,0 +1,71 @@
+ClassInfo
+{
+name	"s_7cd_bx1"
+MBClass	MB_CLASS_ARCTROOPER
+maxhealth	200
+maxarmor	75
+forceregen	1.5
+forcepool	60
+forcepowers	FP_LEVITATION,3|FP_SEE,2|FP_SABER_DEFENSE,3|FP_SABER_OFFENSE,3
+weapons	WP_SABER|WP_MELEE|WP_EE4|WP_FIRE_NADE
+saber1	"Vibro_bx_legends"
+saberstyle	SS_MEDIUM|SS_STRONG
+attributes	MB_ATT_FUELREGEN,3|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,2|MB_ATT_EE4,3|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_FP_MIRALUKA|MB_ATT_FUEL,3|MB_ATT_BESKAR,3|MB_ATT_GUNBASH
+classflags	CFL_HEAVYMELEE
+classNumberLimit	2
+ASmultiplier	1.1
+APmultiplier	1.1
+CSmultiplier	1.1
+modelscale	1.04
+Speed	1.1
+damageTaken	0.95
+model	"bxdroid"
+skin	"rifle"
+uishader	"models/players/bxdroid/mb2_icon_rifle"
+respawnCustomTime	10000
+classNumberLimit	2
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/vibblade/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibroswordBX"
+WeaponName	"Vibrosword"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/e5/e5_w.glm"
+NewViewModel	"models/weapons2/e5/e5.md3"
+Icon	"gfx/hud/w_icon_e5"
+FlashSound0	"sound/weapons/bx_e5/fire.mp3"
+altFlashSound0	"sound/weapons/ee3/sniperfire.mp3"
+WeaponName	"E-5 Blaster BX Custom"
+customAmmo	650
+}
+ForceInfo0
+{
+ForceToReplace	FP_SEE
+Icon	"gfx/forcepowers/radar"
+ForcePowerName	"Radar Scanner"
+}
+description ""

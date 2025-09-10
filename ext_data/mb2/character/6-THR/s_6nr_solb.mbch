@@ -1,0 +1,197 @@
+ClassInfo
+{
+name	"s_6nr_solb"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_MICRO_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+holdables	HI_MEDPAC
+maxhealth	85
+maxarmor	25
+customred	0.463
+customgreen	0.502
+customblue	0.427
+model	"rebel"
+skin	"default"
+uishader	"gfx/sup_icons/rebel/mb2_icon_solb"
+MBClass	"MB_CLASS_SOLDIER"
+extralives	2
+speed	0.8
+model_1	"rebel_guerilla"
+skin_1	"default"
+uishader_1	"gfx/sup_icons/rebel_guerilla/mb2_icon_solb"
+model_2	"rebel_commando"
+skin_2	"default"
+uishader_2	"gfx/sup_icons/rebel_commando/mb2_icon_solb"
+model_3	"rebel_commando"
+skin_3	"hoth"
+uishader_3	"gfx/sup_icons/rebel_commando_h/mb2_icon_solb"
+model_4	"nrguard"
+skin_4	"default"
+uishader_4	"gfx/sup_icons/nrguard/mb2_icon_solb"
+model_5	"nrguard"
+skin_5	"chagrian"
+uishader_5	"gfx/sup_icons/nrguard_cha/mb2_icon_solb"
+model_6	"nrguard"
+skin_6	"abednedo"
+uishader_6	"gfx/sup_icons/nrguard_abe/mb2_icon_solb"
+WP_MeleeFlags	HELD_SPEED
+WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_BlasterFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_EE4Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
+WP_E22Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_STUN|HELD_SPEED
+isCustomBuild	1
+mbPoints	22
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Carbineer"
+customSpecIcon_1	"gfx/sup_builds/6/g/sup_rebs_carb"
+customSpecDesc_1	""
+customSpecName_2	"Rifleman"
+customSpecIcon_2	"gfx/sup_builds/6/g/sup_rebs_riflm"
+customSpecDesc_2	""
+customSpecName_3	"Specialist"
+customSpecIcon_3	"gfx/sup_builds/6/g/sup_rebs_spec"
+customSpecDesc_3	""
+//PBADJUST	9:5
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Bacta Tank"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_BLASTER
+c_att_names_2	"Blaster Carbine"
+c_att_ranks_2	4,1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-AVAILABILITY-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_HEALING
+c_att_names_5	"Passive Healing:"
+c_att_ranks_5	15
+c_att_skill_6	MB_ATT_ASSEMBLE
+c_att_names_6	"Assemble:"
+c_att_ranks_6	1
+c_att_skill_8	MB_ATT_INVALID
+c_att_names_8	"^5-STATS-"
+c_att_ranks_8	-1
+c_att_skill_9	MB_ATT_INVALID
+c_att_names_9	"^1+10 Health"
+c_att_ranks_9	-1
+c_att_skill_15	MB_ATT_INVALID
+c_att_names_15	"Bacta Tank"
+c_att_ranks_15	-1
+c_att_skill_17	MB_ATT_EE4
+c_att_names_17	"Blaster Rifle"
+c_att_ranks_17	4,1
+c_att_skill_19	MB_ATT_INVALID
+c_att_names_19	"^5-AVAILABILITY-"
+c_att_ranks_19	-1
+c_att_skill_20	MB_ATT_HEALING
+c_att_names_20	"Passive Healing:"
+c_att_ranks_20	15
+c_att_skill_21	MB_ATT_ASSEMBLE
+c_att_names_21	"Assemble:"
+c_att_ranks_21	1
+c_att_skill_23	MB_ATT_INVALID
+c_att_names_23	"^5-STATS-"
+c_att_ranks_23	-1
+c_att_skill_24	MB_ATT_INVALID
+c_att_names_24	"^1+10 Health"
+c_att_ranks_24	-1
+c_att_skill_30	MB_ATT_INVALID
+c_att_names_30	"Bacta Tank"
+c_att_ranks_30	-1
+c_att_skill_32	MB_ATT_E_22
+c_att_names_32	"Burst Rifle"
+c_att_ranks_32	4,1,1
+c_att_skill_34	MB_ATT_INVALID
+c_att_names_34	"^5-AVAILABILITY-"
+c_att_ranks_34	-1
+c_att_skill_35	MB_ATT_HEALING
+c_att_names_35	"Passive Healing:"
+c_att_ranks_35	15
+c_att_skill_36	MB_ATT_ASSEMBLE
+c_att_names_36	"Assemble:"
+c_att_ranks_36	1
+c_att_skill_38	MB_ATT_INVALID
+c_att_names_38	"^5-STATS-"
+c_att_ranks_38	-1
+c_att_skill_39	MB_ATT_INVALID
+c_att_names_39	"^1+10 Health"
+c_att_ranks_39	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dh-17/dh-17_w.glm"
+NewViewModel	"models/weapons2/dh-17/dh-17.md3"
+Icon	"gfx/hud/w_icon_dh-17"
+WeaponName	"DH-17 Rebel Carbine"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/A280/A280_w.glm"
+NewViewModel	"models/weapons2/A280/A280.md3"
+Icon	"gfx/hud/w_icon_A280"
+WeaponName	"Heavy A280 Blaster Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/dlt20a/dlt20a_w.glm"
+NewViewModel	"models/weapons2/dlt20a/dlt20a.md3"
+Icon	"gfx/hud/w_icon_DLT20a"
+WeaponName	"Specialist Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire_2.wav"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+customAmmo	500
+clipSize	15
+FPMult	1.4
+hasAnimOverrides 1
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.95
+}
+description ""

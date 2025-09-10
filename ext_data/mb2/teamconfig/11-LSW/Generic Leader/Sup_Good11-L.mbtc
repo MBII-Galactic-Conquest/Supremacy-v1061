@@ -1,0 +1,16 @@
+//Supremacy Class Prefix: s_lca_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Lego Star Wars
+name "Sup_Good11-L"
+ClassesAllowed 5
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1  "s_lca_sold"
+class2  "s_lca_vang"
+class3  "s_lca_ofcw"
+class4  "s_lca_gj1"
+class5  "s_lca_gj2"
+}
+//1-6

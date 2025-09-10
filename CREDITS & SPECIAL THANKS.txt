@@ -1,0 +1,133 @@
+====================================================================
+                         CONTRIBUTORS & CREDITS
+====================================================================
+
+'Goose' Goosto
+    - FA design ideas
+    - Power-up suggestions
+
+Junebug
+    - ERA design
+    - Power-ups design
+    - GC lead testing (past)
+    - Scrim ruleset work (open rulebook)
+
+Torlo50
+    - ERA design
+    - FA design and ideas
+    - KOTOR eras and Galactic Civil War
+
+FrenZy
+    - Campaign rotation scripts
+    - Early development blessing
+    - Map assistance
+    - FA debugging
+
+Arron Dominion
+    - Programming
+    - Open era design
+    - Imperial Remnants era design
+
+John (.gcj)
+    - FA design
+    - Core team, development direction
+    - FA file debugging
+
+Bob Billy
+    - FA KOTOR lore direction
+    - FA suggestions
+    - KOTOR era design
+    - Named leaders
+
+Unguided
+    - FA KOTOR lore direction
+    - Named leaders
+    - KOTOR era models
+    - Alien stormtroopers
+
+OCD2
+    - FA design and ideas
+    - Kitbashing
+    - Assistance with jetpack troopers
+
+GamerChad42
+    - Custom sniper VFX for rifles
+    - DoM/BH pack contributions
+
+ACHUTA / mantlar
+    - Scripter team
+    - Rock the Era & bonus systems
+
+Amberlykse
+    - Scripter team
+    - Assistance with Python and Java scripting
+
+Lucious / drillerslegacy
+    - Supremacy server
+    - Campaign test server
+
+Brawler
+    - Supremacy auto updater
+
+TehPandemic
+    - Battlefront sound replacer audio
+
+Noodle
+    - Zombies and Witches of Dathomir models
+
+Kitsu-Nesh'Kaa
+    - Modeler team
+    - Kitbashing custom model content
+    - Jetpack troopers
+    - Red laser tripmine assets (Supremacy)
+
+LwKill
+    - Acclamator bridge for gc_intermission
+    - Permission to modify
+
+Jeff
+    - Yuuzhan Vong models
+    - Eternal Empire models
+
+Keto
+    - Yuuzhan Vong models
+
+Legacy RP Community
+    - Imperial Knight models
+
+Nodlewaffle
+    - Alien stormtrooper variants for Fel Empire
+
+Jaktan
+    - Assistance with Lair of the Ancients CTF maps
+
+Psyk0Sith
+    - EG-5 Jedi Hunter droid
+
+Omega
+    - T800 series Terminator model
+
+ViceDice
+    - Rock the Era systems work
+
+Mako?Rehaps
+    - AI & Python conquest map generation
+
+DarthStiv
+    - Rakatan playermodels
+
+Leonss
+    - Supremacy auto updater
+
+Xjiro
+    - Custom galaxy map web API
+    - GitHub release tracker
+
+TheEffacer
+    - Imperial Commando redled skin
+
+DarthValeria
+    - TOR Sith Droideka
+
+Delta
+    - Platduel map for Krayt FA

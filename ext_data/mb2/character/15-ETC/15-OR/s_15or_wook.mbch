@@ -1,0 +1,90 @@
+ClassInfo
+{
+name	"s_15or_wook"
+weapons	WP_BLASTER_PISTOL|WP_E_22|WP_FRAG_NADE|WP_MELEE
+attributes	MB_ATT_CORTOSIS,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_PISTOL,2|MB_ATT_E_22,3|MB_ATT_DEXTERITY,1|MB_ATT_FRAGS,2|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_GUNBASH
+maxhealth	250
+maxarmor	75
+modelscale	1.2
+MBClass	MB_CLASS_WOOKIE
+model	"wookiee"
+skin	"red"
+uishader	"gfx/sup_icons/wookiee/mb2_icon_wook_r"
+resource	RESOURCE_RAGE
+special1	EAS_HI_FURY
+special2	EAS_HI_BARGE
+special3	EAS_HI_DEX
+WP_E22Flags	HELD_SLOW
+speed	0.9
+classNumberLimit	1
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Republic Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/bowcaster/bowcaster_w.glm"
+NewViewModel	"models/weapons2/bowcaster/bowcaster.md3"
+Icon	"gfx/hud/w_icon_bowcaster"
+WeaponName	"Wookiee Bowcaster"
+ChargeEffect	"gfx/effects/greenfrontflash"
+MuzzleEffect	"Bowcaster/muzzle_flash"
+AltMuzzleEffect	"Bowcaster/muzzle_flash"
+MissileEffect	"Bowcaster/shot"
+AltMissileEffect	"blaster/Shot04G"
+MissileMissEffect	"effects/impacts/impactmediumgreen1"
+MissileHitHumanEffect	"effects/impacts/impactmediumgreen1"
+MissileHitDroidEffect	"effects/impacts/impactmediumgreen1"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+FlashSound0	"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_all_bowcaster_fire_2.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+rateMod	1.6
+velocityMod	0.8
+damageMod	1.025
+}
+description ""

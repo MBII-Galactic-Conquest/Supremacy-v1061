@@ -1,0 +1,28 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Sith-Imperial War
+name "Sup_Good14-BG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_14fel_slbg"
+class2	"s_14fel_ofc"
+class3	"s_14fel_vet"
+class4	"s_14fel_hvg"
+class5	"s_14fel_hvr"
+class6	"s_14fel_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_14fel_nrd"
+Subclass2	"s_14fel_wook"
+Subclass3	"s_14fel_spy"
+Subclass4	"s_14fel_flm"
+Subclass5	"s_14fel_gj3"
+Subclass6	"s_14fel_kn3"
+Subclass7	"s_14fel_med"
+Subclass8	"s_14fel_sni"
+}
+//1-11

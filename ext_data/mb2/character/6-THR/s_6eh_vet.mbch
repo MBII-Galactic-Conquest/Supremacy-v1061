@@ -1,0 +1,158 @@
+ClassInfo
+{
+name	"s_6eh_vet"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_LIGHTS_BEACON|MB_ATT_WOOKIEE_FURY,2|MB_ATT_DASH,1|MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_CCTRAINING,2|MB_ATT_FRAGS,1|MB_ATT_MICRO_GRENADES,1
+forcepowers	FP_ABSORB,2|FP_PUSH,1
+classflags	CFL_STATVIEWER
+maxhealth	85
+maxarmor	50
+forcepool	50
+speed	0.65
+customred	0.1
+customgreen	0.1
+customblue	0.1
+model	"stormie"
+skin	"officer_rgb"
+uishader	"gfx/sup_icons/stormie_of/mb2_icon_vang"
+MBClass	"MB_CLASS_BOUNTY_HUNTER"
+extralives	1
+model_1	"stormie"
+skin_1	"sandtrooper_rgb"
+uishader_1	"gfx/sup_icons/sandtrooper/mb2_icon_vang"
+model_2	"snowtrooper2"
+skin_2	"sniper"
+uishader_2	"gfx/sup_icons/snowtrooper2_bl/mb2_icon_vang"
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	18
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Sergeant"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sgt"
+customSpecDesc_1	""
+customSpecName_2	"Corpsman"
+customSpecIcon_2	"gfx/sup_builds/units/sup_corp"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_FP_TEAM_FORCE
+c_att_names_1	"Morale Boost"
+c_att_ranks_1	1,1
+c_att_skill_2	MB_ATT_ASSEMBLE
+c_att_names_2	"Assemble"
+c_att_ranks_2	1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-Weapon Availability-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_T21
+c_att_names_5	"Heavy T-21:"
+c_att_ranks_5	13,1,1
+c_att_skill_6	MB_ATT_A280
+c_att_names_6	"Burst T-21:"
+c_att_ranks_6	13,1,1
+c_att_skill_16	MB_ATT_DISP_HEALTH
+c_att_names_16	"Treat Soldiers"
+c_att_ranks_16	1
+c_att_skill_18	MB_ATT_INVALID
+c_att_names_18	"^5-Weapon Availability-"
+c_att_ranks_18	-1
+c_att_skill_19	MB_ATT_T21
+c_att_names_19	"Heavy T-21:"
+c_att_ranks_19	13,1,1
+c_att_skill_20	MB_ATT_A280
+c_att_names_20	"Burst T-21:"
+c_att_ranks_20	13,1,1
+resource	RESOURCE_RAGE
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+classNumberLimit	4
+special1	EAS_HI_DASH
+special2	EAS_HI_KICK
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/imp_pistol/pistol_w.glm"
+NewViewModel	"models/weapons2/imp_pistol/pistol_fpv.md3"
+Icon	"gfx/hud/w_icon_imp_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/t-21/t-21_w.glm"
+NewViewModel	"models/weapons2/t-21/t-21.md3"
+Icon	"gfx/hud/w_icon_t-21_na"
+WeaponName	"T-21 Burst Rifle"
+FlashSound0	"sound/weapons/T-21/alt_fire.mp3"
+AltFlashSound0	"sound/weapons/T-21/fire.mp3"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot03R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.05
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/t-21/t-21_w.glm"
+NewViewModel	"models/weapons2/t-21/t-21.md3"
+Icon	"gfx/hud/w_icon_t-21_na"
+WeaponName	"T-21 Heavy Blaster"
+FlashSound0	"sound/weapons/T-21/fire.mp3"
+AltFlashSound0	"sound/weapons/T-21/alt_fire.mp3"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot03R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.025
+}
+ForceInfo0
+{
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
+}
+ForceInfo1
+{
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mp/sup_vet_nullify"
+ForcePowerName	"Nullify Force"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+ForceInfo2
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_morale_boost"
+ForcePowerName	"Morale Boost"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

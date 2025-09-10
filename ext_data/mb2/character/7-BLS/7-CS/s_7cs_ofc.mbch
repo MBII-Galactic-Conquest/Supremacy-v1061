@@ -1,0 +1,91 @@
+ClassInfo
+{
+name	"s_7cs_ofc"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_A280|WP_SONIC_NADE|WP_CRYO_NADE
+attributes	MB_ATT_DODGE,1|MB_ATT_LIGHTS_BEACON|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_CRYOBAN_GRENADES,1|MB_ATT_SONIC_DETONATOR,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH|MB_ATT_RALLY
+holdables	HI_EWEB|HI_SHIELD|HI_BINOCULARS
+forcepowers	FP_PROTECT,2|FP_PUSH,1
+maxhealth	100
+maxarmor	100
+forcepool	50
+customred	0.639
+customgreen	0.533
+customblue	0.427
+model	"weequay"
+skin	"rgb"
+uishader	"models/players/weequay/mb2_icon_default"
+MBClass	"MB_CLASS_ELITETROOPER"
+rateoffire	0.675
+speed	0.75
+model_1	"weequay"
+skin_1	"rgb_abyssin"
+uishader_1	"models/players/weequay/mb2_icon_rgb_abyssin"
+model_2	"gran"
+skin_2	"rgb"
+uishader_2	"models/players/gran/mb2_icon_default"
+model_3	"rodian"
+skin_3	"rgb"
+uishader_3	"models/players/rodian/mb2_icon_default"
+model_4	"trandoshan"
+skin_4	"rgb"
+uishader_4	"models/players/bossk/mb2_icon_default"
+extralives	1
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+classNumberLimit	2
+resource	RESOURCE_RAGE
+special1	EAS_HI_DASH
+special2	EAS_HI_DODGE
+special3	EAS_HI_KICK
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/EE4_carbine/model_w.glm"
+NewViewModel	"models/weapons2/EE4_carbine/blaster.md3"
+Icon	"gfx/hud/w_icon_ee-4"
+WeaponName	"Stolen EE-4 Rifle"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+}
+ForceInfo0
+{
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
+}
+ForceInfo1
+{
+ForceToReplace	FP_PROTECT
+Icon	"gfx/mp/sup_ofc_shroud"
+ForcePowerName	"Officer Shroud"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

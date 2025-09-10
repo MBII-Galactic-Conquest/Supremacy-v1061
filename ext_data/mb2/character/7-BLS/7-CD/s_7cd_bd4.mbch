@@ -1,0 +1,70 @@
+ClassInfo
+{
+name	"s_7cd_bd4"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_EE4|WP_FIRE_NADE|WP_FRAG_NADE
+attributes	MB_ATT_PISTOL,1|MB_ATT_BESKAR,1|MB_ATT_EE4,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH|MB_ATT_FIRE_GRENADES,1|MB_ATT_GUNBASH
+maxhealth	40
+maxarmor	50
+speed	0.7
+customred	0.702
+customgreen	0.1
+customblue	0.1
+model	"battledroid"
+skin	"deathwatch"
+uishader	"models/players/battledroid/mb2_icon_deathwatch"
+MBClass	"MB_CLASS_SOLDIER"
+extralives	2
+respawnCustomTime	10000
+classNumberLimit	2
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/se-14c_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/se-14c_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_se-14c"
+WeaponName	"SE-14c BlasTech Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"blaster/Shot01R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	200
+clipSize	100
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
+NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
+Icon	"gfx/hud/w_icon_som3_rifle"
+WeaponName	"E-5s Marksman Rifle"
+FlashSound0	"sound/weapons/E-5s/fire.mp3"
+AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
+customAmmo	600
+clipSize	60
+firingAnim	BOTH_ATTACK4
+ReloadTimeModifier	2
+FPMult	0.9
+}
+description ""

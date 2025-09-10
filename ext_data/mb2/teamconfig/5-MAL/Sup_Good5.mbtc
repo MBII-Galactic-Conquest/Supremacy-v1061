@@ -1,0 +1,13 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//SWTOR Malgus Wars
+name "Sup_Good5"
+ClassesAllowed 3
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_5or_sold"
+class2	"s_5or_vang"
+class3	"s_5or_ofcw"
+}
+//1-6

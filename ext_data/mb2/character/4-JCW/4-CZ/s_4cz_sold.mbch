@@ -1,0 +1,96 @@
+ClassInfo
+{
+name	"s_4cz_sold"
+weapons	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_MICRO_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_STAMINA,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+forcepowers	FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,0
+saber1	kotor_vibrosword_supremacy
+saberstyle	SS_MEDIUM
+saber1_1	kotor_vibrostaff_supremacy
+saberstyle_1	SS_STAFF
+maxhealth	75
+maxarmor	25
+forcepool	25
+customred	0.137
+customgreen	0.31
+customblue	0.075
+model	"rebel_gag"
+skin	"militia"
+uishader	"models/players/rebel_gag/mb2_icon_default"
+MBClass	"MB_CLASS_CLONETROOPER"
+extralives	2
+speed	0.8
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Czerka Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/blasterfrontflash"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+AltMissileEffect	"Blaster/Shot02Y"
+PowerupShotEffect	"Blaster/Shot04Y"
+OverchargeEffect	"Blaster/Shot04Y"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle1"
+WeaponName	"Czerka Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+FlashSound1	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound1	"sound/weapons/kotor/fire_hvy.wav"
+FlashSound2	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound2	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+AltMissileEffect	"Blaster/Shot02Y"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+description ""

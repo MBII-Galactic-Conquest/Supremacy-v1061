@@ -1,0 +1,78 @@
+ClassInfo
+{
+name	"s_gn_sold"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_FRAG_NADE
+attributes	MB_ATT_PISTOL,1|MB_ATT_BLASTER,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+maxhealth	75
+maxarmor	50
+customred	0.463
+customgreen	0.502
+customblue	0.427
+model	"prisoner"
+skin	"merchant"
+uishader	"models/players/prisoner/mb2_icon_merchant"
+MBClass	"MB_CLASS_SOLDIER"
+extralives	4
+speed	0.8
+model_1	"prisoner"
+skin_1	"elder"
+uishader_1	"models/players/prisoner/mb2_icon_elder"
+model_2	"prisoner"
+skin_2	"elder2"
+uishader_2	"models/players/prisoner/mb2_icon_elder2"
+model_3	"gran"
+skin_3	"jk"
+uishader_3	"models/players/gran/mb2_icon_jk"
+model_4	"gran"
+skin_4	"default"
+uishader_4	"models/players/gran/mb2_icon_default"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/cp-50_repeater/cp-50_repeater_w.glm"
+NewViewModel	"models/weapons2/cp-50_repeater/cp-50_repeater.md3"
+Icon	"gfx/hud/w_icon_cp-50_repeater"
+WeaponName	"Junk Rifle"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+description ""

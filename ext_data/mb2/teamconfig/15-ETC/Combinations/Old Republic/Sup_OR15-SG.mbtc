@@ -1,0 +1,28 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Eternal Empire
+name "Sup_OR15-SG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_15or_slsg"
+class2	"s_15or_ofc"
+class3	"s_15or_jeds"
+class4	"s_15or_hvg"
+class5	"s_15or_hvre"
+class6	"s_15or_hg1"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_15or_tsj"
+Subclass2	"s_15or_wook"
+Subclass3	"s_15or_spy"
+Subclass4	"s_15or_flm"
+Subclass5	"s_15or_eng"
+Subclass6	"s_15or_vang"
+Subclass7	"s_15or_gj3"
+Subclass8	"s_15or_sni"
+}
+//1-11

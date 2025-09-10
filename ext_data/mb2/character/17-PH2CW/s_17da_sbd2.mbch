@@ -1,0 +1,74 @@
+ClassInfo
+{
+name	"s_17da_sbd2"
+weapons	WP_SBD|WP_MELEE|WP_PLX1
+attributes	MB_ATT_AMMO,4|MB_ATT_PLX1,1|MB_ATT_BESKAR,1|MB_ATT_HULL_STRENGTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_RECHARGE,2|MB_ATT_FIREPOWER,2|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR,1
+maxhealth	250
+maxarmor	10
+saberstyle	SS_DUAL
+speed	0.8
+modelscale	1.12
+rateOfFire	1.15
+//WP_MeleeFlags	HELD_LOWDAMAGE|HELD_SLOW
+WP_PLX1Flags  HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_IGNOREBLOCK|HELD_EXPLOSIVE|HELD_ALTRELOAD
+model	"SBD"
+skin	"default"
+uishader	"models/players/sbd/mb2_icon_default"
+model_1	"SBD"
+skin_1	"mando"
+uishader_1	"models/players/sbd/mb2_icon_mando"
+model_2	"SBD"
+skin_2	"rusty"
+uishader_2	"models/players/sbd/mb2_icon_rusty"
+classNumberLimit	2
+extralives	1
+MBClass	MB_CLASS_SBD
+meleeMoves	M_PUNCH|M_KICK
+respawnCustomTime	10000
+resource	RESOURCE_BATTERY
+special1	EAS_HI_RECHARGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Super Battle Droid (Wrist Rocket)"
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_PLX1
+WeaponBasedOff	WP_PLX1
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_sbdarm"
+WeaponName	"Wrist Rocket"
+MissileEffect	"upl/shot"
+MissileSound	"sound/weapons/upl/missleloop.wav"
+MissileModel	"models/weapons2/upl/projectile_a.md3"
+AltMissileMissEffect	"effects/Grenades/EXP_Explosion"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Explosion"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Explosion"
+MissileMissEffect	"effects/Grenades/EXP_Explosion"
+MissileHitHumanEffect	"effects/Grenades/EXP_Explosion"
+MissileHitDroidEffect	"effects/Grenades/EXP_Explosion"
+FlashSound0	"sound/weapons/WhistlingBird/Fire3.mp3"
+customAmmo	1
+damageMod	1.5
+clipSize	1
+ReloadTimeModifier	2
+AltFireEnabled	0
+idleAnim	SBD_GUN_OUT_STAND
+firingAnim	SBD_FIRE
+altFiringAnim	SBD_FIRE
+}
+description ""

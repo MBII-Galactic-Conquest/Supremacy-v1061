@@ -1,0 +1,197 @@
+ClassInfo
+{
+name	"s_5me_slenb"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_MICRO_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+holdables	HI_MEDPAC
+maxhealth	85
+maxarmor	25
+model	"sithtrooper_tor"
+skin	"default"
+uishader	"gfx/sup_icons/sithtrooper_tor/mb2_icon_sold"
+MBClass	"MB_CLASS_ARCTROOPER"
+extralives	2
+speed	0.8
+WP_MeleeFlags	HELD_SPEED
+WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_BlasterFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_EE4Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
+WP_E22Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_STUN|HELD_SPEED
+resource	RESOURCE_STAMINA
+special1	EAS_HI_SPRINT
+special4	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	62
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Carbineer"
+customSpecIcon_1	"gfx/sup_builds/5/e/sup_imps_carb"
+customSpecDesc_1	""
+customSpecName_2	"Rifleman"
+customSpecIcon_2	"gfx/sup_builds/5/e/sup_imps_riflm"
+customSpecDesc_2	""
+customSpecName_3	"Specialist"
+customSpecIcon_3	"gfx/sup_builds/5/e/sup_imps_spec"
+//PBADJUST	11:3
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Energy Boost & Bacta Tank"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_BLASTER
+c_att_names_2	"Blaster Carbine"
+c_att_ranks_2	4,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_HEALING
+c_att_names_6	"Passive Healing:"
+c_att_ranks_6	15
+c_att_skill_7	MB_ATT_STAMINA
+c_att_names_7	"STAM: ^3[CS1]"
+c_att_ranks_7	15,5
+c_att_skill_8	MB_ATT_DEXTERITY
+c_att_names_8	"DEX: ^3[CS4]"
+c_att_ranks_8	15,5
+c_att_skill_9	MB_ATT_ASSEMBLE
+c_att_names_9	"Assemble:"
+c_att_ranks_9	1
+c_att_skill_11	MB_ATT_INVALID
+c_att_names_11	"^5-STATS-"
+c_att_ranks_11	-1
+c_att_skill_12	MB_ATT_INVALID
+c_att_names_12	"^1+10 Health"
+c_att_ranks_12	-1
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Energy Boost & Bacta Tank"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_EE4
+c_att_names_2	"Blaster Rifle"
+c_att_ranks_2	4,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_HEALING
+c_att_names_6	"Passive Healing:"
+c_att_ranks_6	15
+c_att_skill_7	MB_ATT_STAMINA
+c_att_names_7	"STAM: ^3[CS1]"
+c_att_ranks_7	15,5
+c_att_skill_8	MB_ATT_DEXTERITY
+c_att_names_8	"DEX: ^3[CS4]"
+c_att_ranks_8	15,5
+c_att_skill_9	MB_ATT_ASSEMBLE
+c_att_names_9	"Assemble:"
+c_att_ranks_9	1
+c_att_skill_11	MB_ATT_INVALID
+c_att_names_11	"^5-STATS-"
+c_att_ranks_11	-1
+c_att_skill_12	MB_ATT_INVALID
+c_att_names_12	"^1+10 Health"
+c_att_ranks_12	-1
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Energy Boost & Bacta Tank"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_E_22
+c_att_names_2	"Burst Rifle"
+c_att_ranks_2	4,1,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_HEALING
+c_att_names_6	"Passive Healing:"
+c_att_ranks_6	15
+c_att_skill_7	MB_ATT_STAMINA
+c_att_names_7	"STAM: ^3[CS1]"
+c_att_ranks_7	15,5
+c_att_skill_8	MB_ATT_DEXTERITY
+c_att_names_8	"DEX: ^3[CS4]"
+c_att_ranks_8	15,5
+c_att_skill_9	MB_ATT_ASSEMBLE
+c_att_names_9	"Assemble:"
+c_att_ranks_9	1
+c_att_skill_11	MB_ATT_INVALID
+c_att_names_11	"^5-STATS-"
+c_att_ranks_11	-1
+c_att_skill_12	MB_ATT_INVALID
+c_att_names_12	"^1+10 Health"
+c_att_ranks_12	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Sith Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle1"
+WeaponName	"Sith Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+idleAnim	TORSO_WEAPONREADY3
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle1"
+WeaponName	"Heavy Sith Assault Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/dlt20a/dlt20a_w.glm"
+NewViewModel	"models/weapons2/dlt20a/dlt20a.md3"
+Icon	"gfx/hud/w_icon_DLT20a"
+WeaponName	"Specialist Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapsup/kotor/fire_hvy_2.wav"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+customAmmo	500
+clipSize	15
+FPMult	1.4
+hasAnimOverrides 1
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.95
+}
+description ""

@@ -1,0 +1,220 @@
+ClassInfo
+{
+name	"s_lca_slenc"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_FRAG_NADE|WP_CONC_NADE|WP_PULSE_NADE
+attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_MICRO_GRENADES,1|MB_ATT_PULSE_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+maxhealth	75
+maxarmor	35
+customred	0.463
+customgreen	0.502
+customblue	0.427
+model	"legoguy"
+skin	"clone_ep2"
+uishader	"gfx/sup_icons/lego_clone/mb2_icon_slenc"
+MBClass	"MB_CLASS_ARCTROOPER"
+modelscale	0.7
+extralives	2
+speed	0.8
+WP_MeleeFlags	HELD_SPEED
+WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_BlasterFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_EE4Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
+WP_E22Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_STUN|HELD_SPEED
+resource	RESOURCE_STAMINA
+special1	EAS_HI_SPRINT
+special4	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	62
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Carbineer"
+customSpecIcon_1	"gfx/sup_builds/11/g/sup_rebs_carb"
+customSpecDesc_1	""
+customSpecName_2	"Rifleman"
+customSpecIcon_2	"gfx/sup_builds/11/g/sup_rebs_riflm"
+customSpecDesc_2	""
+customSpecName_3	"Specialist"
+customSpecIcon_3	"gfx/sup_builds/11/g/sup_rebs_spec"
+customSpecDesc_3	""
+//PBADJUST	11:3
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Energy Boost & Combat Shielding"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_BLASTER
+c_att_names_2	"Blaster Carbine"
+c_att_ranks_2	4,1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-AVAILABILITY-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_SHIELD_RECHARGE
+c_att_names_5	"Combat Shielding:"
+c_att_ranks_5	15
+c_att_skill_6	MB_ATT_STAMINA
+c_att_names_6	"STAM: ^3[CS1]"
+c_att_ranks_6	15,5
+c_att_skill_7	MB_ATT_DEXTERITY
+c_att_names_7	"DEX: ^3[CS4]"
+c_att_ranks_7	15,5
+c_att_skill_8	MB_ATT_ASSEMBLE
+c_att_names_8	"Assemble:"
+c_att_ranks_8	1
+c_att_skill_10	MB_ATT_INVALID
+c_att_names_10	"^5-STATS-"
+c_att_ranks_10	-1
+c_att_skill_11	MB_ATT_INVALID
+c_att_names_11	"^2+10 Armor"
+c_att_ranks_11	-1
+c_att_skill_15	MB_ATT_INVALID
+c_att_names_15	"Energy Boost & Combat Shielding"
+c_att_ranks_15	-1
+c_att_skill_17	MB_ATT_EE4
+c_att_names_17	"Blaster Rifle"
+c_att_ranks_17	4,1
+c_att_skill_19	MB_ATT_INVALID
+c_att_names_19	"^5-AVAILABILITY-"
+c_att_ranks_19	-1
+c_att_skill_20	MB_ATT_SHIELD_RECHARGE
+c_att_names_20	"Combat Shielding:"
+c_att_ranks_20	15
+c_att_skill_21	MB_ATT_STAMINA
+c_att_names_21	"STAM: ^3[CS1]"
+c_att_ranks_21	15,5
+c_att_skill_22	MB_ATT_DEXTERITY
+c_att_names_22	"DEX: ^3[CS4]"
+c_att_ranks_22	15,5
+c_att_skill_23	MB_ATT_ASSEMBLE
+c_att_names_23	"Assemble:"
+c_att_ranks_23	1
+c_att_skill_25	MB_ATT_INVALID
+c_att_names_25	"^5-STATS-"
+c_att_ranks_25	-1
+c_att_skill_26	MB_ATT_INVALID
+c_att_names_26	"^2+10 Armor"
+c_att_ranks_26	-1
+c_att_skill_30	MB_ATT_INVALID
+c_att_names_30	"Energy Boost & Combat Shielding"
+c_att_ranks_30	-1
+c_att_skill_32	MB_ATT_E_22
+c_att_names_32	"Burst Rifle"
+c_att_ranks_32	4,1,1
+c_att_skill_34	MB_ATT_INVALID
+c_att_names_34	"^5-AVAILABILITY-"
+c_att_ranks_34	-1
+c_att_skill_35	MB_ATT_SHIELD_RECHARGE
+c_att_names_35	"Combat Shielding:"
+c_att_ranks_35	15
+c_att_skill_36	MB_ATT_STAMINA
+c_att_names_36	"STAM: ^3[CS1]"
+c_att_ranks_36	15,5
+c_att_skill_37	MB_ATT_DEXTERITY
+c_att_names_37	"DEX: ^3[CS4]"
+c_att_ranks_37	15,5
+c_att_skill_38	MB_ATT_ASSEMBLE
+c_att_names_38	"Assemble:"
+c_att_ranks_38	1
+c_att_skill_40	MB_ATT_INVALID
+c_att_names_40	"^5-STATS-"
+c_att_ranks_40	-1
+c_att_skill_41	MB_ATT_INVALID
+c_att_names_41	"^2+10 Armor"
+c_att_ranks_41	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_CLONE_PISTOL
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/demp2.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+WeaponName	"Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/heavy_repeater.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+WeaponName	"Clone Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/legosw/icon_melee"
+WeaponName	"Melee"
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/heavy_repeater.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+WeaponName	"Heavy Clone Rifle"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot05B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+}
+WeaponInfo4
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/heavy_repeater.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+WeaponName	"Specialist Rifle"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot05B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire_2.wav"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+customAmmo	500
+clipSize	15
+FPMult	1.4
+hasAnimOverrides 1
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.95
+}
+description ""

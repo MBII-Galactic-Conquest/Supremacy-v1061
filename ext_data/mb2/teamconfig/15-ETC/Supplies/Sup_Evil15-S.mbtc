@@ -1,0 +1,14 @@
+//Supremacy Class Prefix: s_15et_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Eternal Empire
+name "Sup_Evil15-S"
+ClassesAllowed 3
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_15et_skys"
+class2	"s_15et_eng"
+class3	"s_15et_zk2"
+}
+//1-6

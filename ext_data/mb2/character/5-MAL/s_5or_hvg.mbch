@@ -1,0 +1,116 @@
+ClassInfo
+{
+name	"s_5or_hvg"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_MINIGUN|WP_FIRE_NADE
+attributes	MB_ATT_PISTOL,3|MB_ATT_MINIGUN,3|MB_ATT_DODGE,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_CCTRAINING,2|MB_ATT_FIRE_GRENADES,2|MB_ATT_GUNBASH
+forcepowers	FP_RAGE,3
+maxhealth	110
+maxarmor	80
+forcepool	50
+speed	0.6
+customred	0.741
+customgreen	0.416
+customblue	0.333
+model	"republictrooper"
+skin	"default"
+uishader	"gfx/sup_icons/swtor_republictrooper/mb2_icon_hvg"
+MBClass	"MB_CLASS_WOOKIE"
+extralives	1
+rageSoundOverride	"sound/chars/clonetrooper_p2/misc/taunt5.mp3"
+bargeSoundOverride	"sound/chars/clonetrooper_p2/misc/combat1.mp3"
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+rateoffire	1.5
+damageGiven	1.1
+damageTaken	0.95
+knockbackGiven	1.2
+classNumberLimit	2
+resource	RESOURCE_RAGE
+special1	EAS_HI_DODGE
+special2	EAS_HI_DEX
+special3	EAS_HI_FURY
+special4	EAS_HI_BARGE
+WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Heavy Republic Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+Missile3Effect	"blaster/Shot04B"
+MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
+ReloadTimeModifier	2
+AltFireEnabled 0
+customAmmo	250
+clipSize	20
+hasAnimOverrides	1
+animReady BOTH_STAND4TOATTACK2
+animReadyWalk BOTH_STAND4TOATTACK2
+animReadyNoAmmo BOTH_PISTOL_ATTACK
+animAttack BOTH_PISTOL_ATTACK
+animAttackWalk BOTH_PISTOL_ATTACK
+animStand BOTH_STAND9
+damageMod 0.9
+velocityMod 0.9
+rateMod 1.2
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_MINIGUN
+WeaponBasedOff	WP_MINIGUN
+NewWorldModel	"models/weapons2/z6_rotary/model.glm"
+NewViewModel	"models/weapons2/z6_rotary/rotary_cannon.md3"
+Icon	"gfx/hud/w_icon_rotary_cannon"
+WeaponName	"Republic Rotary Cannon"
+FlashSound0	"sound/weapsup/sup/minigun_fire.mp3"
+FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound0	"sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+isMinigun	1
+ReloadTimeModifier	2
+FPMult	0.9
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/mp/sup_laser_barrage_b"
+ForcePowerName	"Laser Barrage"
+StartSound	"sound/forcesup/barrage.mp3"
+}
+description ""

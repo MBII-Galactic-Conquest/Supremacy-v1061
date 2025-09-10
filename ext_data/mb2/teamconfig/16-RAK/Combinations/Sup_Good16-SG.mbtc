@@ -1,0 +1,25 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Infinite Empire
+name "Sup_Good16-SG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_16se_slsg"
+class2	"s_16se_ofc"
+class3	"s_16se_hvg"
+class4	"s_16se_hvre"
+class5	"s_16se_flm"
+class6	"s_16se_spy"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_16se_eng"
+Subclass2	"s_16se_jet"
+Subclass3	"s_16se_vet"
+Subclass4	"s_16se_gs3"
+Subclass5	"s_16se_sni"
+}
+//1-11

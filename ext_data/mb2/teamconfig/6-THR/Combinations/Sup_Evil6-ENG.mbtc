@@ -1,0 +1,26 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Thrawns Ascendancy
+name "Sup_Evil6-ENG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_6eh_sleng"
+class2	"s_6eh_ofc"
+class3	"s_6eh_vet"
+class4	"s_6eh_hvg"
+class5	"s_6eh_hvr"
+class6	"s_6eh_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1	"s_6eh_shck"
+Subclass2	"s_6eh_spy"
+Subclass3	"s_6eh_flm"
+Subclass4	"s_6eh_dtr"
+Subclass5	"s_6eh_sni"
+Subclass6	"s_6eh_gs3"
+}
+//1-11

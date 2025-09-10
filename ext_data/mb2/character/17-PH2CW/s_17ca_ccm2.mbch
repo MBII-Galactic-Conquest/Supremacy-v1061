@@ -1,0 +1,121 @@
+ClassInfo
+{
+name	"s_17ca_ccm2"
+weapons	WP_SABER|WP_MELEE|WP_BLASTER|WP_PROJ|WP_BLASTER_PISTOL|WP_PULSE_NADE|WP_FRAG_NADE
+attributes	MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_STAMINA,3|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,2|MB_ATT_BLAST_ARMOUR|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_SHIELD_RECHARGE2,1|MB_ATT_FRAGS,2|MB_ATT_DASH,2|MB_ATT_GUNBASH
+maxhealth	200
+maxarmor	60
+saber1	"arc_shiv_legends"
+saberstyle	SS_TAVION|SS_DESANN
+MBClass	MB_CLASS_CLONETROOPER
+forcepowers	FP_SABER_DEFENSE,3|FP_SABER_OFFENSE,3
+speed	1.08
+forcepool	35
+rateoffire	0.60
+APmultiplier	1.1
+modelscale	1.02
+classNumberLimit	1
+DamageTaken	0.90
+WP_BLASTERflags	HELD_ALTRELOAD|HELD_LOWDAMAGE
+saberStanceAnim	BOTH_STAND9
+tauntAnim	BOTH_VICTORY_FAST
+gloatAnim	BOTH_MELEE_SPINKICK
+flourishAnim	both_stand9idle1
+meditateAnim	both_knockdown4
+bowAnim	both_headshake
+customred	0.267
+customgreen	0.416
+customblue	0.941
+model	"clonerc2"
+skin	"rgb"
+uishader	"gfx/sup_icons/clonerc2/mb2_icon_sni"
+respawnCustomTime	10000
+resource	RESOURCE_STAMINA
+special1	EAS_HI_SPRINT
+special2	EAS_HI_DASH
+special3	EAS_HI_GRAPPLEHOOK
+special4	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/DC-17m/blaster.glm"
+NewViewModel	"models/weapons2/DC-17m/blaster.md3"
+FlashSound0	"sound/weapons/dc17m/fire.wav"
+AltFlashSound0	"sound/weapons/dc17m/fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+Icon	"gfx/hud/w_icon_dc-17mB"
+WeaponName	"DC-17M"
+customAmmo	900
+clipSize	180
+primFireEnabled	0
+firingAnim	BOTH_ATTACK3
+ReloadTimeModifier	1.5
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/arc_shiv_short/shiv_short_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_arc_shiv"
+WeaponName	"Wrist Shiv"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/DC-17m/sniper.glm"
+NewViewModel	"models/weapons2/DC-17m/sniper.md3"
+Icon	"gfx/hud/w_icon_dc-17mS"
+FlashSound0	"sound/weapons/RC_Sniper/fire.mp3"
+WeaponName	"DC-17M: Sniper Attachment"
+PrimHitscanShot 1
+PrimHitscanTracer 10
+clipSize	1
+customAmmo	4
+ReloadTimeModifier	1.2
+fpmult	1.1
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_CLONE_PISTOL
+NewWorldModel	"models/weapons2/DC-15/dc-15_w.glm"
+NewViewModel	"models/weapons2/DC-15/dc-15.md3"
+Icon	"gfx/hud/w_icon_clonepistol"
+WeaponName	"DC-15s"
+FlashSound0	"sound/weapons/demp2/fire.mp3"
+AltFlashSound0	"sound/weapons/demp2/altfire.mp3"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"Blaster/Shot01B"
+Missile3Effect	"Blaster/Shot04B"
+AltMissileEffect	"Blaster/Shot04B"
+PowerupShotEffect	"Blaster/Shot04B"
+ChargeEffect	"gfx/effects/cloneFrontFlash"
+clipSize	5
+ReloadTimeModifier	1.5
+customammo 900
+}
+description ""

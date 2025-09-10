@@ -1,0 +1,53 @@
+//Siege class def file.
+ClassInfo
+{
+name	"grievous_palpy"
+weapons	WP_MELEE|WP_SABER
+forcepowers	FP_LEVITATION,1
+attributes	MB_ATT_HEALING,3|MB_ATT_CORTOSIS,1
+classflags	CFL_KILLTEAMONDEATH|CFL_FASTHACKING
+maxhealth	400
+//forcepool	10
+model	"palpatine"
+skin	"default"
+uishader	"models/players/palpatine/mb2_icon_default"
+MBClass	MB_CLASS_JEDI
+saber1	"PrisonRaidFake"
+sabercolor	0
+saberstyle	SS_TAVION
+WalkForward	BOTH_WALK7
+WalkBackward BOTH_WALK7
+tauntAnim	BOTH_TALK1
+flourishAnim	BOTH_TUSKENTAUNT1
+saberStanceAnim	TORSO_SURRENDER_START
+WP_MeleeFlags HELD_HEAL
+WP_SaberFlags HELD_HEAL
+classnumberlimit	1
+damagegiven	0
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/noweap/noweap.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_magacap"
+WeaponName	"Palpy Hands"
+}
+description ""

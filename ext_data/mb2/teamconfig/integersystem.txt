@@ -1,0 +1,54 @@
+TWO DEFENSIVE BONUSES A MATCH,
+OR ONE OFFENSIVE BONUS A MATCH.
+
+! - DEFENSIVE
+? - OFFENSIVE
+* - NON-APPLICABLE
+
+---
+
+Bacta- 10 !
+Supplies- 9 !
+Garrison- 7 !
+Energy Boost - 26!
+Combat Shielding- 14 !
+Saboteur Bonus- 4 ?
+Enhanced Blasters- 8 ?
+Generic Leader- 20 ?
+Named Leader- 18 ?
+MVP- 32 *
+
+Officer- 50
+Heavy Rocket Trooper- 300
+Heavy Machine Gunner- 500
+Veteran/Vanguard- 1000
+Jet Trooper- 1600
+Flame Trooper- 2000
+
+Unique Special Units- 4000
+
+== `Sup_NAME#-TOTAL`
+#- ERA
+
+---
+
+NEW SYSTEM (for now):
+s - soldier supplies
+b - soldier bacta
+g - soldier garrison
+bg - soldier bacta & garrison
+c - soldier combat shielding
+sg - sold supplies & garrison
+bs - sold bacta & supplies
+cg - sold shielding & garrison
+cs - sold shielding & supplies
+bc - sold bacta & shielding
+eb - soldier enhanced blasters
+gl - generic leader
+m - soldier mvp
+
+en - soldier energy boost
+eng - soldier energy & garrison
+ens - soldier energy & supplies
+enb - soldier energy & bacta
+enc - soldier energy & combat shielding

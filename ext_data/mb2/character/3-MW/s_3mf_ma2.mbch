@@ -1,0 +1,73 @@
+ClassInfo
+{
+name	"s_3mf_ma2"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_PULSE_NADE
+attributes	MB_ATT_CLONE_PISTOL,3|MB_ATT_ARMOUR,3|MB_ATT_BESKAR,2|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,2|MB_ATT_FORCEBLOCK,2|MB_ATT_QUICKTHROW,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_CCTRAINING,2|MB_ATT_JETPACK,1|MB_ATT_ROCKET|MB_ATT_FUEL,3|MB_ATT_FLAMETHROWER,1
+//forcepowers	FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,2
+classflags	CFL_STRONGAGAINSTPHYSICAL
+saber1	kotor_vibrosword_supremacy
+saberstyle	SS_MEDIUM
+saber1_1	kotor_vibrostaff_supremacy
+saberstyle_1	SS_STAFF
+//saberstyle	SS_STRONG
+forcepool	50
+maxhealth	100
+maxarmor	30
+customred	0.1
+customgreen	0.1
+customblue	0.1
+model	"mbmandy"
+skin	"mbrgb2"
+uishader	"gfx/sup_icons/mbmandy_mbrgb2/mb2_icon_jet"
+MBClass	MB_CLASS_MANDALORIAN
+speed	0.8
+//jetpackJetTag	*jetpack_jet
+//jetpackJet2Tag	*jetpack_jet2
+//jetpackJetOffset	"0, 0, 4"
+//jetpackJet2Offset	"0, 0, 4"
+resource	RESOURCE_FUEL
+special1	EAS_HI_ROCKET
+special2	EAS_HI_FLAME
+special3	EAS_HI_WRIST
+special4	EAS_HI_QUICKTHROW
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Mando Leader #2"
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_MANDO_PISTOL
+NewWorldModel	"models/weapons2/westar34/westar34.glm"
+NewViewModel	"models/weapons2/westar34/westar34.md3"
+Icon	"gfx/hud/w_icon_westar"
+WeaponName	"Mandalorian Westar Pistol"
+FlashSound0	"sound/weapons/westar/fire.mp3"
+AltFlashSound0	"sound/weapons/westar/alt_fire.mp3"
+//ChargeSound	"sound/weapons/bryar/altcharge.mp3"
+MuzzleEffect	"Blaster/MuzzleCharge01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02r"
+Missile3Effect	"Blaster/Shot04r"
+AltMissileEffect	"Blaster/Shot04r"
+PowerupShotEffect	"Blaster/Shot04r"
+ChargeEffect	"gfx/effects/bryarfrontflash"
+WeaponName	"Dual Westar Pistols"
+customAmmo	800
+//clipSize	100
+}
+description ""

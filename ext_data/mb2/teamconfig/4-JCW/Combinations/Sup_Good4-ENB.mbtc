@@ -1,0 +1,14 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Jedi Civil War
+name "Sup_Good4-ENB"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_4or_slenb"
+class2	"s_4or_vang"
+class3	"s_4or_ofcw"
+class4	"s_4or_med"
+}
+//1-6

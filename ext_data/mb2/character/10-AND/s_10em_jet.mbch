@@ -1,0 +1,98 @@
+ClassInfo
+{
+name	"s_10em_jet"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_BLASTER|WP_PULSE_NADE
+attributes	MB_ATT_CLONE_PISTOL,3|MB_ATT_ARMOUR,3|MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_QUICKTHROW,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_CCTRAINING,2|MB_ATT_JETPACK,1|MB_ATT_FUEL,2|MB_ATT_FLAMETHROWER|MB_ATT_GUNBASH
+classflags	CFL_WFLAMETHROWER
+maxhealth	100
+maxarmor	50
+customred	1
+customgreen	1
+customblue	1
+model	"clonetrooper_p2"
+skin	"501_jetpack_rgb"
+uishader	"gfx/sup_icons/clonetrooper_p2/mb2_icon_jet"
+MBClass	"MB_CLASS_MANDALORIAN"
+extralives	1
+speed	0.7
+//jetpackJetTag	*jetpack_jet
+//jetpackJet2Tag	*jetpack_jet2
+//jetpackJetOffset	"0, 0, 4"
+//jetpackJet2Offset	"0, 0, 4"
+classNumberLimit	4
+resource	RESOURCE_FUEL
+special4	EAS_HI_QUICKTHROW
+respawnCustomTime	10000
+WP_CloneRifleFlags HELD_ALTRELOAD
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_CLONE_PISTOL
+NewWorldModel	"models/weapons2/dc-17/dc-17_w.glm"
+NewViewModel	"models/weapons2/dc-17/dc-17.md3"
+Icon	"gfx/hud/w_icon_dc-17"
+WeaponName	"DC-17r Dual Pistols"
+FlashSound0	"sound/weapsup/sup/pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/pistol_altfire.wav"
+MuzzleEffect	"Blaster/MuzzleCharge01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02r"
+Missile3Effect	"Blaster/Shot04r"
+AltMissileEffect	"Blaster/Shot04r"
+PowerupShotEffect	"Blaster/Shot04r"
+ChargeEffect	"gfx/effects/bryarfrontflash"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"Imperial E-11 Carbine"
+FlashSound0	"sound/weapsup/sup/f11_fire.mp3"
+AltFlashSound0	"sound/weapsup/sup/f11_alt_fire.mp3"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_CLONE_RIFLE
+WeaponBasedOff	WP_CLONE_RIFLE
+idleAnim	JET_FORWARD
+firingAnim	MAND_FLAME
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_wristrocket"
+WeaponName	"Wrist Flamer"
+customAmmo	600
+clipSize	120
+ReloadTimeModifier	1.4
+}
+description ""

@@ -1,0 +1,16 @@
+//Supremacy Class Prefix: s_lem_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Lego Star Wars
+name "Sup_Evil11-BS"
+ClassesAllowed 5
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1  "s_lem_slbs"
+class2  "s_lem_vet"
+class3  "s_lem_ofcw"
+class4  "s_lem_med"
+class5  "s_lem_eng"
+}
+//1-6

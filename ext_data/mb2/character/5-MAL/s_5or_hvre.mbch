@@ -1,0 +1,137 @@
+ClassInfo
+{
+name	"s_5or_hvre"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_PLX1|WP_BLASTER|WP_FRAG_NADE|WP_PULSE_NADE|WP_TRIP_MINE|WP_SONIC_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_BLASTER,3|MB_ATT_TRIP_MINES,1|MB_ATT_SONIC_DETONATOR,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_FRAGS,2|MB_ATT_PULSE_GRENADES,1|MB_ATT_WOOKIEE_FURY,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_CCTRAINING,2|MB_ATT_PLX1,1|MB_ATT_GUNBASH
+maxhealth	100
+maxarmor	75
+speed	0.7
+customred	0.741
+customgreen	0.416
+customblue	0.333
+model	"republictrooper"
+skin	"default"
+uishader	"gfx/sup_icons/swtor_republictrooper/mb2_icon_hvr"
+MBClass	"MB_CLASS_WOOKIE"
+extralives	1
+rageSoundOverride	"sound/chars/clonetrooper_p2/misc/taunt5.mp3"
+bargeSoundOverride	"sound/chars/clonetrooper_p2/misc/combat1.mp3"
+resource	RESOURCE_RAGE
+special1	EAS_HI_FURY
+special2	EAS_HI_BARGE
+classNumberLimit	2
+WP_PLX1Flags	HELD_SLOW
+respawnCustomTime	10000
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Republic Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle2/kotor_brifle2.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle2"
+WeaponName	"Republic Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_PLX1
+WeaponBasedOff	WP_PLX1
+NewWorldModel	"models/weapons2/MiniMag_launcher/launcher_w.glm"
+NewViewModel	"models/weapons2/MiniMag_launcher/launcher.md3"
+Icon	"gfx/hud/w_icon_MiniMag"
+WeaponName	"MiniMag PTL Launcher"
+customAmmo	1
+damageMod	1.5
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_TRIP_MINE
+WeaponBasedOff	WP_TRIP_MINE
+Icon	"gfx/hud/w_icon_tripmine_r_na"
+WeaponName	"Frag Mines"
+NewWorldModel	"models/weapons2/laser_trap_r/laser_trap_r_w.glm"
+NewViewModel	"models/weapons2/laser_trap_r/laser_trap_r_hand.md3"
+MissileModel	"models/weapons2/laser_trap_r/laser_trap_r_1.md3"
+AltMissileModel	"models/weapons2/laser_trap_r/laser_trap_r_1.md3"
+FlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+AltFlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+MissileMissEffect	"effects/Grenades/EXP_Explosion_E"
+MissileHitHumanEffect	"effects/Grenades/EXP_Explosion_E"
+MissileHitDroidEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileMissEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Explosion_E"
+velocityMod	0.001
+damageMod	1.5
+rateMod	2
+AltFireEnabled	0
+}
+WeaponInfo4
+{
+WeaponToReplace	WP_SONIC_NADE
+WeaponBasedOff	WP_SONIC_NADE
+Icon	"gfx/hud/w_icon_stungrenade"
+WeaponName	"Sticky Flashbang"
+NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+MissileEffect	"effects/Grenades/GlowConcB"
+AltMissileEffect	"effects/Grenades/GlowConcB"
+FlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+AltFlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+MissileMissEffect	"effects/Grenades/EXP_Flash"
+MissileHitHumanEffect	"effects/Grenades/EXP_Flash"
+MissileHitDroidEffect	"effects/Grenades/EXP_Flash"
+AltMissileMissEffect	"effects/Grenades/EXP_Flash"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Flash"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Flash"
+}
+description ""

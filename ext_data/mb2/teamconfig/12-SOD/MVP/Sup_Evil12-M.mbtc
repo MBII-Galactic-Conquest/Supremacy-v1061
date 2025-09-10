@@ -1,0 +1,13 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Shadows of Dathomir
+name "Sup_Evil12-M"
+ClassesAllowed 3
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_uzo_spr"
+class2  "s_uzo_dt"
+class3  "s_uzo_dtb"
+}
+//1-6

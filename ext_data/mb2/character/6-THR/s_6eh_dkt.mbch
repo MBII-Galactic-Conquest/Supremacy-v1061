@@ -1,0 +1,84 @@
+//Siege class def file.
+ClassInfo
+{
+name	"s_6eh_dkt"
+weapons	WP_MELEE|WP_BOWCASTER|WP_PLX1
+attributes	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_PLX1,1|MB_ATT_BOWCASTER,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_FP_MIRALUKA
+maxhealth	125
+maxarmor	200
+forcepowers	FP_SEE,1
+forcepool	25
+modelscale	1.17
+rateOfFire	0.95
+damageTaken	0.9
+speed	1.06
+classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
+//WP_PLX1Flags HELD_LOWDAMAGE
+model	"darktrooper_p3"
+skin	"default"
+uishader	"gfx/sup_icons/darktrooper_p3/mb2_icon_vang"
+jetpackJetTag	*jet1
+jetpackJet2Tag	*jet2
+jetpackJetOffset	"0, 0, 1"
+jetpackJet2Offset	"0, 0, 1"
+respawnCustomTime	10000
+classNumberLimit	1
+MBClass	MB_CLASS_WOOKIE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BOWCASTER
+WeaponBasedOff	WP_PLX1
+NewWorldModel	"models/weapons2/assault_cannon/model_w.glm"
+NewViewModel	"models/weapons2/assault_cannon/model.md3"
+NewHandsModel	"models/weapons2/merr_sonn/merr_sonn_hand.md3"
+Icon	"gfx/hud/w_icon_DTAC"
+WeaponName	"Assault Cannon"
+FlashSound0	"sound/weapons/assault_cannon/fire.mp3"
+idleanim	DC15_FIRE
+customAmmo	800
+MuzzleEffect	"assault_cannon/muzzle_flash"
+MissileEffect	"demp2/projectile"
+MissileMissEffect "effects/blaster/Impact_Wall01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_PLX1
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/assault_cannon/model_w.glm"
+NewViewModel	"models/weapons2/assault_cannon/model.md3"
+Icon	"gfx/hud/w_icon_DTAC_rocket"
+WeaponName	"Assault Cannon - Rocket Mode"
+idleanim	DC15_FIRE
+firinganim	DC15_FIRE
+CustomAmmo 1
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
+}
+ForceInfo1
+{
+ForceToReplace	FP_SEE
+Icon	"gfx/forcepowers/radar"
+ForcePowerName	"Radar Scanner"
+}
+description ""

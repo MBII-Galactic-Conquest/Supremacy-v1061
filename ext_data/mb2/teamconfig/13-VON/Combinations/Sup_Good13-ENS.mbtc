@@ -1,0 +1,15 @@
+//Supremacy Class Prefix: s_13ga_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Hordes of the Yuuzhan Vong
+name "Sup_Good13-ENS"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_13ga_slens"
+class2	"s_13ga_vang"
+class3	"s_13ga_ofcw"
+class4	"s_13ga_eng"
+}
+//1-6

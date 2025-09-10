@@ -1,0 +1,6 @@
+//Siege team definition file.
+name "cr2_jawas"
+Classes
+{
+	class1		"mb2_observer_r"
+}

@@ -1,0 +1,114 @@
+ClassInfo
+{
+name	"s_16ie_med"
+weapons	WP_MELEE|WP_FRAG_NADE|WP_SABER|WP_BLASTER_PISTOL|WP_BLASTER
+attributes	MB_ATT_BESKAR,2|MB_ATT_PISTOL,2|MB_ATT_BLASTER,2|MB_ATT_FRAGS,1|MB_ATT_WOOKIEE_FURY,1|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FORCEBLOCK,2|MB_ATT_ARMOUR,0|MB_ATT_AMMO,3|MB_ATT_CCTRAINING,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_FLIPKICK,2|MB_ATT_DASH,2|MB_ATT_DISP_HEALTH,2
+forcepowers	FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,2|FP_TEAM_HEAL,2
+classflags	CFL_STATVIEWER
+holdables	HI_MEDPAC|HI_MEDPAC_BIG
+saber1	rakatan_vibrostaff_supremacy
+saberstyle	SS_STAFF
+forcepool	50
+maxhealth	200
+maxarmor	10
+customred	0.451
+customgreen	0.71
+customblue	0.31
+modelscale	1.2
+model	"Rakata"
+skin	"default_2"
+uishader	"gfx/sup_icons/rakata_2/mb2_icon_med"
+MBClass	MB_CLASS_HERO
+speed	0.7
+saberStanceAnim	BOTH_TAVION_STANCE
+rageSoundOverride	"sound/chars/rakata/misc/pain100.wav"
+bargeSoundOverride	"sound/chars/rakata/misc/pain25.wav"
+damageGiven	1.10
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+classNumberLimit	1
+resource	RESOURCE_RAGE
+special1	EAS_HI_DASH
+special2	EAS_HI_FURY
+special3	EAS_HI_HEALTHDISP
+special4	EAS_HI_BARGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_vibroswords/vibrostaff_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_oldrepswords"
+WeaponName	"Rakatan Vibrostaff"
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/e5/e5_w.glm"
+NewViewModel	"models/weapons2/e5/e5.md3"
+Icon	"gfx/hud/w_icon_e5"
+WeaponName	"Rakatan Blaster Carbine"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+idleAnim	TORSO_WEAPONREADY3
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+ForceInfo0
+{
+ForceToReplace	FP_TEAM_HEAL
+Icon	"gfx/mp/sup_med_heal"
+ForcePowerName	"Team Kolto Mist"
+StartSound	"sound/player/pickuphealth.mp3"
+}
+description ""//Medic class, dispense bacta tanks, pistol 3, hero heal, and dodge. 100 hp, No armor.
+

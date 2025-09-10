@@ -1,0 +1,65 @@
+//Siege class def file.
+ClassInfo
+{
+name  "s_uzo_dtb"
+weapons WP_MELEE|WP_SABER
+attributes  MB_ATT_CORTOSIS,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_FORCEBLOCK,3
+saber1 "PrisonRaidFake"
+maxhealth 200
+maxarmor  40
+modelscale	1.2
+model "Death_Trooper"
+skin  "default"
+uishader  "models/players/Death_Trooper/mb2_icon_default"
+MBClass MB_CLASS_WOOKIE
+speed 0.8
+extralives  3
+classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+resource	RESOURCE_RAGE
+special1	EAS_HI_FURY
+special2	EAS_HI_BARGE
+rageSoundOverride	"Sound/chars/Death_Trooper/misc/melee.wav"
+bargeSoundOverride	"Sound/chars/Death_Trooper/misc/melee.wav"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+	NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_melee"
+WeaponName	"Melee"
+FlashSound0	"Sound/chars/Death_Trooper/misc/melee.wav"
+AltFlashSound0	"Sound/chars/Death_Trooper/misc/melee.wav"
+primGore	1
+altGore	1
+idleAnim	BOTH_INAIRBACK1
+firingAnim	BOTH_BURSTMISS
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/noweap/noweap.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_fakedeath"
+WeaponName	"Feign Death"
+}
+description ""

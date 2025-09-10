@@ -1,0 +1,194 @@
+ClassInfo
+{
+name	"s_2ca_par"
+weapons	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL
+attributes	MB_ATT_PISTOL,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_CCTRAINING,2|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,2|MB_ATT_GUNBASH
+holdables	HI_SHIELD|HI_BINOCULARS
+saber1	assassin_shiv_legends
+//saber1	assassin_shiv_supremacy
+saberstyle	SS_TAVION|SS_DESANN
+forcepowers	FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,2|FP_PUSH,1
+forcepool	25
+APmultiplier	1.1
+maxhealth	100
+maxarmor	100
+customred	1
+customgreen	0.984
+customblue	0.1
+model	"Clonepac"
+skin	"rgb"
+uishader	"gfx/sup_icons/Clonepac/mb2_icon_ofc"
+MBClass	"MB_CLASS_ARCTROOPER"
+rateoffire	0.675
+speed	0.7
+saberDamage	0.2
+classNumberLimit	2
+resource	RESOURCE_STAMINA
+special1	EAS_HI_SPRINT
+special4	EAS_HI_DEX
+isCustomBuild	1
+mbPoints	13
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Squad Leader"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sql"
+customSpecDesc_1	""
+customSpecName_2	"Commando"
+customSpecIcon_2	"gfx/sup_builds/units/sup_com"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_A280
+c_att_names_1	"Burst Rifle"
+c_att_ranks_1	4,1,1
+c_att_skill_2	MB_ATT_SONIC_DETONATOR
+c_att_names_2	"Sonic Screamer"
+c_att_ranks_2	1
+c_att_skill_3	MB_ATT_CRYOBAN_GRENADES
+c_att_names_3	"Cryostasis Grenade"
+c_att_ranks_3	1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_FP_PROTECT
+c_att_names_6	"Officer Shroud"
+c_att_ranks_6	1,1
+c_att_skill_7	MB_ATT_BLAST_ARMOUR
+c_att_names_7	"Blast Armor"
+c_att_ranks_7	1
+c_att_skill_8	MB_ATT_RALLY
+c_att_names_8	"Reinforcements Radio"
+c_att_ranks_8	1
+c_att_skill_16	MB_ATT_BOWCASTER
+c_att_names_16	"Heavy Blaster"
+c_att_ranks_16	4,1,1
+c_att_skill_17	MB_ATT_FRAGS
+c_att_names_17	"Corrosive Grenades"
+c_att_ranks_17	1,1
+c_att_skill_19	MB_ATT_INVALID
+c_att_names_19	"^5-AVAILABILITY-"
+c_att_ranks_19	-1
+c_att_skill_20	MB_ATT_FP_PUSH
+c_att_names_20	"Enhanced Repulsor Gloves"
+c_att_ranks_20	1,1
+c_att_skill_21	MB_ATT_SHIELD_RECHARGE
+c_att_names_21	"Combat Shielding"
+c_att_ranks_21	1
+c_att_skill_22	MB_ATT_TRACKING_BEACON
+c_att_names_22	"Tracking Beacon"
+c_att_ranks_22	1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/arc_shiv_short/shiv_short_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_arc_shiv"
+WeaponName	"Wrist Shiv"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/dc-17/dc-17_w.glm"
+NewViewModel	"models/weapons2/dc-17/dc-17.md3"
+Icon	"gfx/hud/w_icon_dc-17"
+WeaponName	"DC-17 Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+Missile3Effect	"Blaster/Shot03B"
+AltMissileEffect	"blaster/Shot01B"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+customAmmo	200
+clipSize	100
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/DC-17m/blaster.glm"
+NewViewModel	"models/weapons2/DC-17m/blaster.md3"
+Icon	"gfx/hud/w_icon_dc-17mB"
+WeaponName	"DC-17m Specialist Rifle"
+FlashSound0	"sound/weapons/dc17m/fire.wav"
+AltFlashSound0	"sound/weapons/dc17m/fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_BOWCASTER
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/DC-17m/blaster.glm"
+NewViewModel	"models/weapons2/DC-17m/blaster.md3"
+Icon	"gfx/hud/w_icon_dc-17mB"
+WeaponName	"DC-17m Specialist Rifle"
+FlashSound0	"sound/weapons/dc17m/fire.wav"
+AltFlashSound0	"sound/weapons/dc17m/fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot05B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.50
+}
+WeaponInfo4
+{
+WeaponToReplace	WP_FRAG_NADE
+WeaponBasedOff	WP_THERMAL
+NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+Icon	"gfx/hud/w_icon_stungrenade"
+WeaponName	"Corrosive Stun Grenade"
+MissileModel	"models/weapons/Grenade_Concussion/proj.md3"
+MissileEffect	"effects/Grenades/GlowGasB"
+AltMissileEffect	"effects/Grenades/GlowGasB"
+MissileMissEffect	"effects/Grenades/EXP_Gas"
+altMissileMissEffect	"effects/Grenades/EXP_Gas"
+ratemod	1.5
+}
+ForceInfo0
+{
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
+}
+ForceInfo1
+{
+ForceToReplace	FP_PROTECT
+Icon	"gfx/mp/sup_ofc_shroud"
+ForcePowerName	"Officer Shroud"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

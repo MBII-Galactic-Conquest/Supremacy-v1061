@@ -1,0 +1,13 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Rise of the First Order
+name "Sup_Good8"
+ClassesAllowed 3
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_8re_sold"
+class2	"s_8re_vang"
+class3	"s_8re_ofcw"
+}
+//1-6

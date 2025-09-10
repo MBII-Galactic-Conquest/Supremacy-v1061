@@ -1,0 +1,15 @@
+//Supremacy Class Prefix: s_17ca_
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Clone Wars
+name "Sup_Good17-M"
+ClassesAllowed 4
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_17ca_cs1"
+class2	"s_17ca_cs1m"
+class3	"s_17ca_cs4"
+class4	"s_17ca_ofcw"
+}
+//1-6

@@ -1,0 +1,164 @@
+ClassInfo
+{
+name	"s_2ca_pc1"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_PULSE_NADE
+attributes	MB_ATT_CLONE_PISTOL,1|MB_ATT_ARMOUR,2|MB_ATT_AMMO,2|MB_ATT_STAMINA,1|MB_ATT_PULSE_GRENADES,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+maxhealth	75
+maxarmor	25
+model	"clonetrooper_p1"
+skin	"default"
+uishader	"gfx/sup_icons/clonetrooper_p1/mb2_icon_sold"
+MBClass	"MB_CLASS_SOLDIER"
+extralives	2
+speed	0.8
+model_1	"clonetrooper_p1"
+skin_1	"poncho"
+uishader_1	"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_sold"
+WP_MeleeFlags	HELD_SPEED
+WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_BlasterFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_EE4Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
+WP_E22Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_STUN|HELD_SPEED
+isCustomBuild	1
+mbPoints	7
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Carbineer"
+customSpecIcon_1	"gfx/sup_builds/2/g/sup_rebs_carb"
+customSpecDesc_1	""
+customSpecName_2	"Rifleman"
+customSpecIcon_2	"gfx/sup_builds/2/g/sup_rebs_riflm"
+customSpecDesc_2	""
+customSpecName_3	"Specialist"
+customSpecIcon_3	"gfx/sup_builds/2/g/sup_rebs_spec"
+customSpecDesc_3	""
+//PBADJUST	6:8
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Default Soldier"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_BLASTER
+c_att_names_2	"Blaster Carbine"
+c_att_ranks_2	4,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_ASSEMBLE
+c_att_names_6	"Assemble:"
+c_att_ranks_6	1
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Default Soldier"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_EE4
+c_att_names_2	"Blaster Rifle"
+c_att_ranks_2	4,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_ASSEMBLE
+c_att_names_6	"Assemble:"
+c_att_ranks_6	1
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Default Soldier"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_E_22
+c_att_names_2	"Burst Rifle"
+c_att_ranks_2	4,1,1
+c_att_skill_5	MB_ATT_INVALID
+c_att_names_5	"^5-AVAILABILITY-"
+c_att_ranks_5	-1
+c_att_skill_6	MB_ATT_ASSEMBLE
+c_att_names_6	"Assemble:"
+c_att_ranks_6	1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/dc-17/dc-17_w.glm"
+NewViewModel	"models/weapons2/dc-17/dc-17.md3"
+Icon	"gfx/hud/w_icon_dc-17"
+WeaponName	"DC-17 Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	200
+clipSize	100
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dc-15s/dc-15s_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15s.md3"
+Icon	"gfx/hud/w_icon_dc-15s"
+WeaponName	"DC-15s Clone Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Heavy DC-15a Clone Rifle"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot05B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Specialist Rifle"
+MissileEffect	"blaster/Shot03B"
+AltMissileEffect	"blaster/Shot05B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire_2.wav"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+customAmmo	500
+clipSize	15
+FPMult	1.4
+hasAnimOverrides 1
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.95
+}
+description ""

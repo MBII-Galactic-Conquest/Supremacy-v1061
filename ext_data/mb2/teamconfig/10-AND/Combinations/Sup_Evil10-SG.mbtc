@@ -1,0 +1,26 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Rise of the Galactic Empire
+name "Sup_Evil10-SG"
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+Classes
+{
+class1	"s_10em_slsg"
+class2	"s_10em_ofc"
+class3  "s_10em_vet"
+class4	"s_10em_hvg"
+class5	"s_10em_hvre"
+class6  "s_10em_jet"
+}
+//1-6
+SubclassesForClass1
+{
+Subclass1  "s_10em_kdr"
+Subclass2  "s_10em_spy"
+Subclass3  "s_10em_flm"
+Subclass4  "s_10em_eng"
+Subclass5  "s_10em_gs3"
+Subclass6  "s_10em_sni"
+}
+//1-11

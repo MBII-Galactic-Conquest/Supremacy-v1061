@@ -1,0 +1,67 @@
+Teams
+{
+	team1 Knights
+	team2 Krayt
+}
+
+MBModesAllowed "2 3 4" //Space separated list of mode numbers the map may be played on. If the server is not using an allowed mode, it will change to the first mode in the list.
+
+mapgraphic "gfx/mplevels/endor/map"
+missionname "Darth Krayt Duel FA"
+
+roundbegin_target ""
+
+Knights
+{
+	RequiredObjectives 1
+	UseTeam "Sup_Duel_Knights"
+	TeamIcon "gfx/2d/mp_imp_symbol_3"
+	TeamColorOn	"1 0 0 1"
+	TeamColorOff ".7 0 0 1"
+
+	Objective1
+	{
+		goalname "Kill Darth Krayt!"
+		final -1
+		message_team1 ""
+		message_team2 ""
+		objdesc ""
+		objgfx "gfx/mplevels/mb2_duel_korriban/obj"
+	}
+
+	wonround ""
+	lostround ""
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target ""
+	attackers 1
+	briefing "Look Important."
+}
+
+Krayt
+{
+	RequiredObjectives 1
+	UseTeam "Sup_Duel_Krayt"
+	Timed 300
+	TeamIcon "gfx/2d/logos/mb_sith"
+	TeamColorOn	"0 0 1 1"
+	TeamColorOff "0 0 .7 1"
+
+	Objective1
+	{
+		goalname "Occupy The Throne!"
+		final 1
+		message_team1 ""
+		message_team2 ""
+		objdesc ""
+		objgfx "gfx/mplevels/mb2_duel_korriban/obj"
+	}
+	
+	wonround ""
+	lostround ""
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "siegeend"
+	attackers 0
+	briefing "Slay Darth Krayt!"
+}

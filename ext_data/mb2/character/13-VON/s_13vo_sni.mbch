@@ -1,0 +1,96 @@
+ClassInfo
+{
+name	"s_13vo_sni"
+weapons	WP_MELEE|WP_PROJ
+forcepowers	FP_LEVITATION,0|FP_SPEED,1|FP_ABSORB,2
+attributes	MB_ATT_BESKAR,3|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FORCEBLOCK,4|MB_ATT_FORCEFOCUS,4|MB_ATT_FLIPKICK,2|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_CORTOSIS,1|MB_ATT_ANTI_MT,3|MB_ATT_GUNBASH
+classflags	CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+maxhealth	200
+forcepool	50
+speed	1.06
+modelscale	1.2
+MBClass	MB_CLASS_WOOKIE
+damageGiven	1.10
+rateoffire	2
+//rateoffire_melee	2
+model	"yuuzhanvongketo"
+skin	"default"
+uishader	"gfx/sup_icons/yuuzhanvongketo/mb2_icon_sni"
+model_1	"nom_anor"
+skin_1	"default"
+uishader_1	"gfx/sup_icons/nom_anor/mb2_icon_sni"
+rageSoundOverride	"sound/chars/vong/misc/roar.mp3"
+bargeSoundOverride	"sound/chars/vong/misc/pain100.mp3"
+WP_StunBatonFlags	HELD_POISON
+tauntAnim	BOTH_TUSKENTAUNT1
+flourishAnim	BOTH_TUSKENTAUNT1
+gloatAnim	BOTH_TUSKENTAUNT1
+resource	RESOURCE_FORCE
+special1	EAS_HI_FURY
+special2	EAS_HI_BARGE
+resource	RESOURCE_FORCE
+extralives	1
+classNumberLimit	1
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Brute Sniper (Warrior Caste)"
+c_att_ranks_0	-1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_PROJ
+NewWorldModel	"models/weapons2/sherruck_blaster/sher_rifle_w.glm"
+NewViewModel	"models/weapons2/sherruck_blaster/sher_rifle.md3"
+Icon	"gfx/hud/w_icon_sherruck_na"
+WeaponName	"Yuuzhan Vong Bio-Sniper"
+ChargeEffect	"gfx/effects/greenfrontflash"
+MissileMissEffect	"effects/sonic_pistol/wall_impact"
+MuzzleEffect	"Disruptor/muzzle_flash"
+MissileEffect	"effects/sonic_pistol/projectile"
+AltMissileEffect	"effects/sonic_pistol/projectile"
+FlashSound0	"sound/weapsup/vong/acidthrower.mp3"
+}
+ForceInfo0
+{
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
+}
+ForceInfo1
+{
+ForceToReplace	FP_SPEED
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+ForcePowerName	"Supernatural Speed"
+}
+ForceInfo1
+{
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mplevels/dc_universe/fp_sinestro"
+ForcePowerName	"Natural Force Resist"
+}
+description ""

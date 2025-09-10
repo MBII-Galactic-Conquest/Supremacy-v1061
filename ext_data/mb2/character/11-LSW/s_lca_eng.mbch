@@ -1,0 +1,104 @@
+ClassInfo
+{
+name	"s_lca_eng"
+weapons	WP_MELEE|WP_CLONE_PISTOL|WP_SHOTGUN|WP_DET_PACK|WP_FRAG_NADE|WP_STUN_BATON
+attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_SHOTGUN,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_ARMOUR,0|MB_ATT_AMMO,3|MB_ATT_DET_PACK,1|MB_ATT_FRAGS,2|MB_ATT_QUICKTHROW,2|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DISP_ARMOR,2|MB_ATT_DISP_AMMO,2
+classflags	CFL_STATVIEWER|CFL_FASTHACKING
+holdables	HI_SEEKER|HI_SENTRY_GUN
+forcepowers	FP_SEE,2|FP_TEAM_FORCE,2
+forcepool	50
+maxhealth	100
+maxarmor	20
+speed	0.7
+customred	1
+customgreen	0.898
+customblue	0.1
+model	"legoguy"
+skin	"clone_ep2"
+uishader	"gfx/sup_icons/lego_clone/mb2_icon_eng"
+MBClass	"MB_CLASS_HERO"
+modelscale	0.7
+respawnCustomTime	10000
+classNumberLimit	1
+WP_ShotgunFlags HELD_ALTRELOAD|HELD_STUN
+WP_StunBatonFlags HELD_FLAME|HELD_STUN|HELD_LOWDAMAGE
+resourceRegenRate	1000
+resourceRegenAmount	0.5
+forceregen	0.1
+resource	RESOURCE_RAGE
+special1	EAS_HI_ARMORDISP
+special2	EAS_HI_AMMODISP
+special4	EAS_HI_QUICKTHROW
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_CLONE_PISTOL
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/demp2.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+WeaponName	"Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_SHOTGUN
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+NewViewModel	"models/weapons2/lego_repeater/heavy_repeater.md3"
+Icon	"gfx/mplevels/legosw/icon_repeater"
+FlashSound0	"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+WeaponName	"Lego Blast Cannon"
+MissileEffect	"blaster/Shot01B"
+MuzzleEffect	"flechette/muzzle_flash"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+customAmmo	432
+clipSize	36
+AltFireEnabled	0
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/legosw/icon_melee"
+WeaponName	"Melee"
+}
+ForceInfo0
+{
+ForceToReplace	FP_SEE
+Icon	"gfx/forcepowers/radar"
+ForcePowerName	"Radar Scanner"
+}
+ForceInfo1
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_eng_synergize"
+ForcePowerName	"Team Synergize"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

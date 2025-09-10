@@ -1,0 +1,156 @@
+ClassInfo
+{
+name	"s_1em_sold"
+weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_FRAG_NADE|WP_CONC_NADE
+attributes	MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_MICRO_GRENADES,1|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
+maxhealth	75
+maxarmor	25
+model	"stormie"
+skin	"default"
+uishader	"gfx/sup_icons/stormie/mb2_icon_sold"
+MBClass	"MB_CLASS_SOLDIER"
+extralives	2
+speed	0.8
+model_1	"stormie"
+skin_1	"remnant"
+uishader_1	"gfx/sup_icons/dirtystormie/mb2_icon_sold"
+model_2	"snowtrooper"
+skin_2	"default"
+uishader_2	"gfx/sup_icons/snowtrooper/mb2_icon_sold"
+model_3	"scouttrooper"
+skin_3	"default"
+uishader_3	"gfx/sup_icons/scouttrooper/mb2_icon_sold"
+WP_MeleeFlags	HELD_SPEED
+WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_BlasterFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+WP_EE4Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
+WP_E22Flags	HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_STUN|HELD_SPEED
+isCustomBuild	1
+mbPoints	7
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Carbineer"
+customSpecIcon_1	"gfx/sup_builds/1/e/sup_imps_carb"
+customSpecDesc_1	""
+customSpecName_2	"Rifleman"
+customSpecIcon_2	"gfx/sup_builds/1/e/sup_imps_riflm"
+customSpecDesc_2	""
+customSpecName_3	"Specialist"
+customSpecIcon_3	"gfx/sup_builds/1/e/sup_imps_spec"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Default Soldier"
+c_att_ranks_0	-1
+c_att_skill_2	MB_ATT_BLASTER
+c_att_names_2	"Blaster Carbine"
+c_att_ranks_2	4,1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-AVAILABILITY-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_ASSEMBLE
+c_att_names_5	"Assemble:"
+c_att_ranks_5	1
+c_att_skill_15	MB_ATT_INVALID
+c_att_names_15	"Default Soldier"
+c_att_ranks_15	-1
+c_att_skill_17	MB_ATT_EE4
+c_att_names_17	"Blaster Rifle"
+c_att_ranks_17	4,1
+c_att_skill_19	MB_ATT_INVALID
+c_att_names_19	"^5-AVAILABILITY-"
+c_att_ranks_19	-1
+c_att_skill_20	MB_ATT_ASSEMBLE
+c_att_names_20	"Assemble:"
+c_att_ranks_20	1
+c_att_skill_30	MB_ATT_INVALID
+c_att_names_30	"Default Soldier"
+c_att_ranks_30	-1
+c_att_skill_32	MB_ATT_E_22
+c_att_names_32	"Burst Rifle"
+c_att_ranks_32	4,1,1
+c_att_skill_34	MB_ATT_INVALID
+c_att_names_34	"^5-AVAILABILITY-"
+c_att_ranks_34	-1
+c_att_skill_35	MB_ATT_ASSEMBLE
+c_att_names_35	"Assemble:"
+c_att_ranks_35	1
+respawnCustomTime	10000
+}
+WeaponInfo0
+{
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/imp_pistol/pistol_w.glm"
+NewViewModel	"models/weapons2/imp_pistol/pistol_fpv.md3"
+Icon	"gfx/hud/w_icon_imp_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+WeaponInfo1
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"E-11 Imperial Carbine"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+}
+WeaponInfo2
+{
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"Heavy E-11 Blaster"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/dlt20a/dlt20a_w.glm"
+NewViewModel	"models/weapons2/dlt20a/dlt20a.md3"
+Icon	"gfx/hud/w_icon_DLT20a"
+WeaponName	"Specialist Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire_2.wav"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+customAmmo	500
+clipSize	15
+FPMult	1.4
+hasAnimOverrides 1
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	0.95
+}
+description ""
