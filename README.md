@@ -5,7 +5,7 @@
 Follow these steps to install and configure **Supremacy** with Rock the Era (RTE) scripts:
 
 ### 1. Extract Godfinger
-- Download **godfingerv102.zip**
+- Open **godfingerv102.zip**
 - Extract it into your `gamedata/` folder
 - Make sure **Python 3.12.7** is installed on your system
 
@@ -17,7 +17,7 @@ Follow these steps to install and configure **Supremacy** with Rock the Era (RTE
 
 ### 3. Add RTE Scripts
 - *(RTE = Rock the Era, including Rock the Bonus scripts)*
-- Download one of the following:
+- Open one of the following:
   - `rte-campaignstable.zip` (campaign version), **OR**
   - `rte-stable.zip` (stable version)
 - Extract into: `godfinger/update/deploy`
